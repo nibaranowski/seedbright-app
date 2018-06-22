@@ -1,6 +1,11 @@
 {
   "name": "seedbright-app",
   "version": "1.0.0",
+  "engines": {
+      "node": "10.2.1",
+      "npm": "5.6.0",
+      "yarn": "1.6.0"
+  },
   "main": "index.js",
   "author": "Nicolas Baranowski",
   "license": "MIT",
