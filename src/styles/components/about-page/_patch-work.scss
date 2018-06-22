@@ -1,0 +1,114 @@
+.patchWork {
+    background: none;
+    margin-bottom: 8rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        margin-bottom: 4rem;
+    }
+}
+
+.patchWork__content {
+    margin-top: 9.5rem;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.patchWork__content__text {
+    margin-left: 0rem;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: $m-size;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    h1 {
+        width: 45rem;
+        margin-top: 0rem;
+        margin-bottom: 0;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        font-family: Avenir;
+        font-size: $xlarge-font*2;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: $main-blue;
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            font-size: $xlarge-font*1.5;
+            margin-top: 1.5rem;
+            width: 30rem;
+            margin-left: $small-padding-left-mobile;
+        }
+    }
+    h2 {
+        margin-bottom: 5.5rem;
+        margin-top: -1.3rem;
+        padding-top: 0.0rem;
+        width: 45rem;
+        font-family: Avenir;
+        font-size: $xlarge-font*2;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: justify;
+        color: $grey;
+        line-height: 1.5;
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            width: 100%;
+            line-height: 1.4;
+            font-size: $xlarge-font*1.5;
+            margin-left: $small-padding-left-mobile;
+        }
+    }
+}
+
+.patchWork__content__images {
+    img {
+        display: relative;
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            width: 100%;
+        }
+    }
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        width: 100%;
+    }
+}
+
+.patchWork__content__images__image1 {
+
+}
+
+
+.patchWork__content__images__image2 {
+    margin-left: 10rem;
+    margin-bottom: 18.6rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        display: none;
+    }
+}
+
+
+.patchWork__content__images__image3 {
+    margin-left: 2.4rem;
+    margin-top: 2.8rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        display: none;
+    }
+}

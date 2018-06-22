@@ -1,0 +1,111 @@
+.main {
+    margin-top: 2rem;
+    background: none;
+    margin-bottom: 10rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        margin-bottom: 8rem;
+    }
+}
+
+.main__content {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: $s-size 0;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        display: flex;
+        flex-direction: column;
+        padding: $m-size;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.main__content__text {
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    width: 60rem;
+    padding-left: 7.7rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: $m-size;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    h1 {
+        margin-top: 8.6rem;
+        margin-bottom: 0;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        font-family: Avenir;
+        font-size: $xlarge-font*2;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: $main-blue;
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            margin-top: 1.5rem;
+            line-height: 4.4rem;
+
+        }
+    }
+    p {
+        margin-top: 0rem;
+        padding-top: 0.4rem;
+        width: 41rem;
+        font-family: Avenir;
+        font-size: $medium-font*2;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: justify;
+        color: $grey;
+        line-height: 1.5;
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            width: 100%;
+            line-height: 1.4;
+        }
+    }
+}
+
+.main__content__small-illustration {
+    padding: 0;
+    text-align: right;
+    width: 100%;
+    img {
+        width: 100%;
+        text-align: right;
+    }
+    align-items: flex-end;
+    display: inline;
+    justify-content: space-between;
+    padding: 0 0;
+    @media (min-width: $desktop-breakpoint) { //here in desktop
+        display: none;
+    }
+}
+
+.main__content__illustration {
+    padding: 0;
+    text-align: right;
+    width: 55%;
+    img {
+        width: 100%;
+        text-align: right;
+    }
+    align-items: flex-end;
+    display: inline;
+    justify-content: space-between;
+    padding: 0 0;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        display: none;
+    }
+}

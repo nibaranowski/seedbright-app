@@ -1,0 +1,40 @@
+.news-tile {
+    margin-top: 19rem;
+    background: none;
+    margin-bottom: 0rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        margin-top: 4rem;
+    }
+}
+
+.news-tile__title {
+    padding-left: $s-size;
+    font-family: Avenir;
+    font-size: $large-font*1.32;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.0rem;
+    color: $main-blue;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 3.5rem;
+    h1 {
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+.news-tile__content{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 0;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        padding: $s-size*1.15 0;
+        flex-direction: column;
+    }
+}

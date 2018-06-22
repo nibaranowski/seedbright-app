@@ -1,0 +1,43 @@
+.customerGrid {
+    background: none;
+    margin-bottom: 30rem;
+    @media (max-width: $desktop-breakpoint) {
+        margin-bottom: 14rem;
+    }
+}
+
+.customerGrid__content {
+    width: 86%;
+    margin-left: 7%;
+    height: 100rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: $m-size;
+    padding-top: $m-size;
+    img {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    @media (max-width: $desktop-breakpoint) {
+        flex-direction: column;
+        justify-content: space-around;
+        width: 80%;
+        padding-right: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+        img {
+            max-width: 18rem;
+        }
+    }
+
+}
+
+
+.hide {
+        @media (max-width: $desktop-breakpoint) {
+            display: none;
+        }
+}

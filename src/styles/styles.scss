@@ -1,0 +1,47 @@
+@import './base/settings';
+@import './base/base';
+
+@import './components/general/box-layout';
+@import './components/general/buttons';
+@import './components/general/content-container';
+@import './components/general/form';
+@import './components/general/input-group';
+@import './components/general/inputs';
+@import './components/general/list';
+@import './components/general/loader';
+@import './components/general/page-header';
+@import './components/general/visibility';
+@import './components/general/header';
+@import './components/general/footer';
+
+@import './components/home-page/customers';
+@import './components/home-page/details';
+@import './components/home-page/main';
+@import './components/home-page/mainB';
+@import './components/home-page/testimonials';
+@import './components/home-page/testimonial';
+@import './components/home-page/style-link';
+
+@import './components/work-page/main-workspace';
+@import './components/work-page/project-tile';
+@import './components/work-page/tile';
+
+@import './components/about-page/main-about';
+@import './components/about-page/methods';
+@import './components/about-page/method';
+@import './components/about-page/happy-client';
+@import './components/about-page/customer-grid';
+@import './components/about-page/patch-work';
+@import './components/about-page/offices';
+@import './components/about-page/office';
+@import './components/about-page/say-hi';
+
+@import './components/news-page/news-tile';
+@import './components/news-page/tile-one-news';
+
+@import './components/careers-page/main-careers';
+@import './components/careers-page/missions';
+@import './components/careers-page/interview';
+@import './components/careers-page/patchwork-careers';
+@import './components/careers-page/treat-you';
+@import './components/careers-page/office-detail';

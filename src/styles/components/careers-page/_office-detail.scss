@@ -1,0 +1,232 @@
+.officeDetail {
+    background: none;
+    margin-bottom: 8rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        margin-bottom: 4rem;
+    }
+}
+
+.officeDetail__content {
+    margin-top: 9.5rem;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        img {
+            width: 45%;
+            margin-top: 8rem;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.officeDetail__content__image {
+    display: flex;
+    flex-direction: column;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        align-items: flex-start;
+        margin-left: 0;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.officeDetail__content__image__rectangle {
+    //border: 2px solid red;
+    background-color: $very-light-green;
+    height: 9rem;
+    padding-left: 41.5rem;
+    padding-top: 3.2rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        display: none;
+    }
+}
+
+.officeDetail__content__text {
+    //border: 2px green solid;
+    padding-top: 10.2rem;
+    margin-top: -13.4rem;
+    margin-left: -2.4rem;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    height: 80rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: $m-size;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    h1 {
+        margin-left: 8.5rem;
+        width: 35rem;
+        margin-top: 0rem;
+        margin-bottom: 0;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        font-family: Avenir;
+        font-size: $xlarge-font*3.8;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: $main-blue;
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            font-size: $xlarge-font*1.5;
+            margin-top: 20.5rem;
+            width: 30rem;
+            margin-left: $small-padding-left-mobile;
+        }
+    }
+    a {
+        margin-left: 32rem;
+        margin-top: -5.0rem;
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            display: none;
+        }
+    }
+    h2 {
+        margin-bottom: 3.5rem;
+        margin-left: 14.5rem;
+        margin-top: 4rem;
+        padding-top: 0.0rem;
+        width: 42rem;
+        font-family: Avenir;
+        font-size: $xlarge-font*1.4;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: justify;
+        color: $grey;
+        line-height: 1.5;
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            width: 100%;
+            line-height: 1.4;
+            font-size: $xlarge-font*1.5;
+            margin-left: $small-padding-left-mobile;
+        }
+    }
+    h3 {
+        width: 100%;
+        margin-top: 0.0rem;
+        margin-left: 14.5rem;
+        margin-bottom: 0;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        font-family: Avenir;
+        font-size: $xlarge-font*0.9;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: $off-black;
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            font-size: $xlarge-font.5;
+            margin-top: 1.5rem;
+            line-height: 4.4rem;
+            width: 30rem;
+            margin-left: $small-padding-left-mobile;
+        }
+    }
+
+}
+
+.officeDetail__content__text--Warsaw {
+    @extend .officeDetail__content__text;
+    @media (min-width: $desktop-breakpoint) { //here in mobile
+        display: none;
+    }
+}
+
+.officeDetail__content__text__positions {
+    padding-top: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 45rem;
+    //border: 3px blue solid;
+    margin-left: 13.2rem;
+    h4 {
+        margin-left: 0 !important;
+        //border: 4px green blue;
+        margin-bottom: 0;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        font-family: Avenir;
+        font-size: $xlarge-font*1.3;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: $off-black;
+        margin-right: 10rem;
+        margin-bottom: 2rem;
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            font-size: $xlarge-font*1.0;
+            margin-left: 0 !important;
+            padding-left: 0;
+        }
+        a {
+            margin-left: 0 !important;
+            //border: green 1px solid;
+            width: 2rem;
+            //border: 1px red solid;
+            margin-bottom: 0;
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+            font-family: Avenir;
+            font-size: $xlarge-font*1.3;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            letter-spacing: normal;
+            color: $off-black;
+            margin-right: 0rem;
+            @media (max-width: $desktop-breakpoint) { //here in mobile
+                font-size: $xlarge-font*1.0;
+                display: inline;
+                margin-left: 0 !important;
+                padding-left: 0;
+            }
+        }
+    }
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        margin-left: $small-padding-left-mobile;
+        height: 40rem;
+        padding-left: 0;
+        justify-content: flex-start;
+    }
+}
+
+.officeDetail__content__menu {
+    //border: red 3px solid;
+    display: flex;
+    flex-direction: column;
+    margin-top: 11rem;
+    padding-left: 4rem;
+    a {
+        span {
+            font-size: $xlarge-font*1.0;
+            margin-top: -0.5rem;
+        }
+    }
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        display: none;
+    }
+}
