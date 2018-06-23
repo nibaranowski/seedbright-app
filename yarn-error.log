@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js run dev-server
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js install
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -14,9 +14,12 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/admin/Documents/Projects/React/seedbright-app/package.json: Unexpected token } in JSON at position 417
-      at JSON.parse (<anonymous>)
-      at /usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:1130:59
+  SyntaxError: Expected string 391:21 in /Users/admin/Documents/Projects/React/seedbright-app/yarn.lock
+      at Parser.unexpected (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:62817:11)
+      at Parser.parse (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:62886:18)
+      at parse (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:63019:17)
+      at module.exports.exports.default (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:62583:96)
+      at Function.<anonymous> (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:3565:63)
       at Generator.next (<anonymous>)
       at step (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:98:30)
       at /usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:109:13
@@ -34,7 +37,7 @@ npm manifest:
       "dev-server": "webpack-dev-server",
       "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
       "start": "node server/server.js",
-      "heroku-postbuild": "yarn run build:prod",
+      "heroku-postbuild": "yarn run build:prod"
     },
     "dependencies": {
       "babel-cli": "6.24.1",
