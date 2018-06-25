@@ -2,6 +2,8 @@ import React from 'react';
 import MainAbout from '../about-page/MainAbout';
 import Methods from '../about-page/Methods';
 import MainContact from '../contact-page/MainContact';
+import OfficeContact from '../contact-page/OfficeContact';
+import JoinSeedbright from '../contact-page/JoinSeedbright';
 
 // import CustomerGrid from '../about-page/CustomerGrid';
 // import PatchWork from '../about-page/PatchWork';
@@ -17,12 +19,14 @@ const ContactPage = () => (
     <div>
         <Header
             workUnderline=""
-            aboutUnderline="--underline"
+            aboutUnderline=""
             newsUnderline=""
             careersUnderline=""
-            contactUnderline=""
+            contactUnderline="--underline"
         />
         <MainContact />
+        <OfficeContact />
+        <JoinSeedbright />
         {/* <HappyClient />
         <CustomerGrid />
         <PatchWork />
