@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import StyleActualLink from '../general/StyleActualLink';
+
 
 export const Customers = () => (
     <div className="details">
         <div className="content-container">
-
+            <h1 className="details__content__title">We aim for the best</h1>
             <div className="details__content">
                 <div className="details__content__detail">
                     {/* <div className="details__content__detail__img">
@@ -64,6 +66,15 @@ export const Customers = () => (
                         <p>We are thriving to create long-term relationships with our clients. Our products are solid and built for the long term.</p>
                     </div>
                 </div>
+            </div>
+
+            <div className="details__content__link">
+                <StyleActualLink
+                    link="/about"
+                    image="arrow.svg"
+                    title="Learn More"
+                    color="#4a73ff"
+                />
             </div>
 
             <div className="details__content__main">

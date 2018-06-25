@@ -9,7 +9,7 @@ export const MainB = () => (
             <div className="mainB__content">
                 <div className="mainB__content__text">
                     <h1>Digital Product Makers</h1>
-                    <p>Seedbright is a digital agency focusing on crafting delightful products, brands and digital customer experience.</p>
+                    <p>At Seedbright, we focus on designing, developing and implementing one-of-a-kind digital products and customer experience.</p>
                     <StyleLink
                         mail="mailto:hello@seedbright.com"
                         image="arrow.svg"
@@ -17,10 +17,12 @@ export const MainB = () => (
                         color="#4a73ff"
                     />
                 </div>
-                <div className="mainB__content__illustration">
-                    <img src="/images/main_illustrationB.jpg" />
-                    <div className="mainB__content__illustration__circle"></div>
+                <div className="mainB__content__image">
+                    <img src="/images/main_option2.jpg" />
                 </div>
+            </div>
+            <div className="mainB__image">
+                <img src="/images/main_option2.jpg" />
             </div>
         </div>
     </div>

@@ -1,18 +1,21 @@
 .details {
     background: none;
+    margin-top: 2rem;
     margin-left: 0;
-    margin-bottom: 14rem;
+    margin-bottom: 10rem;
     @media (max-width: $desktop-breakpoint) { //here in mobile
         margin-bottom: 6rem;
     }
 }
 
 .details__content {
+    //border: 1px red solid;
+    width: 100%;
     align-items: flex-start;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
     @media (max-width: $desktop-breakpoint) { //here in mobile
         margin-bottom: 0rem;
         display: flex;
@@ -20,12 +23,13 @@
         padding: 0;
         justify-content: flex-start;
         align-items: flex-start;
+        padding-left: $small-padding-left-mobile;
     }
 }
 
 .details__content--mod {
     @extend .details__content;
-    margin-bottom: 16rem;
+    margin-bottom: 4rem;
 }
 
 
@@ -65,11 +69,6 @@
 
 .details__content__detail__text {
     margin-top: -0.5rem;
-    align-items: flex-start;
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-    padding-left: 2.5rem;
     h1 {
         @extend .tlp;
         margin: 0;
@@ -82,7 +81,7 @@
         @extend .p;
         margin-top: 0rem;
         padding-top: 0.75rem;
-        width: 92%;
+        width: 95%;
         @media (max-width: $desktop-breakpoint) { //here in mobile
             width: 100%;
         }
@@ -95,10 +94,11 @@
 
 .details__content__main {
     img {
-        width: 100rem;
+        width: 101rem;
         heigth: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        padding-right: 0;
+        margin-right: 0;
     }
     margin-top: 6.4rem;
     padding: 0;
@@ -108,6 +108,28 @@
     }
 }
 
+.details__content__title {
+    @extend .t1;
+    margin-bottom: 6rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: $small-padding-left-mobile;
+    }
+}
+
+.details__content__link {
+    float: right;
+    margin-right: 1rem;
+    margin-bottom: 12rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        margin-right: 4rem;
+    }
+}
 // .details__content__iphone{
 //
 //

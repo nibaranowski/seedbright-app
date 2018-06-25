@@ -55,7 +55,7 @@
     margin-bottom: 2.6rem;
     margin-top: 0.2rem;
     width: 18.2rem;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: $medium-font*1.2;
     font-style: normal;
     font-stretch: normal;
@@ -71,7 +71,7 @@
         color: darken($main-blue, 7%);
     }
     @media (max-width: $desktop-breakpoint) {
-        font-family: Avenir;
+        font-family: Lato;
         font-size: $medium-font*0.9;
         width: 14rem;
     }

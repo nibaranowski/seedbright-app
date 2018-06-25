@@ -122,7 +122,7 @@
     color: $grey;
     line-height: 1.8;
     @media (max-width: $desktop-breakpoint) { //here in mobile
-        line-height: 1.6*$mobile-factor;
+        line-height: 1.8*$mobile-factor;
         font-size: 1.6rem*$mobile-factor;
     }
 }

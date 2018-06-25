@@ -2,7 +2,7 @@
     background: none;
     margin-bottom: 9.2rem;
     @media (max-width: $desktop-breakpoint) {
-        margin-bottom: 7.2rem;
+        margin-bottom: 6.2rem;
     }
 }
 
@@ -30,8 +30,9 @@
 }
 
 .footer__title-content__title {
+    padding-top: 2.2rem;
     font-family: Archivo;
-    font-size: $large-font*1.1;
+    font-size: $large-font*2;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -59,16 +60,17 @@
     @media (max-width: $desktop-breakpoint) {
         width: 100%;
         padding-left: 0;
-        margin-top: 1.3rem;
+        margin-top: 0.7rem;
         width: 100%;
         justify-content: space-between;
+        padding-top: 0;
     }
 }
 
 .footer__sections__column {
     width: 18rem;
     margin-top: 4rem;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: $medium-font*1.3;
     font-weight: 500;
     font-style: normal;
@@ -82,7 +84,7 @@
       margin: 0;
     }
     @media (max-width: $desktop-breakpoint) {
-      font-family: Avenir;
+      font-family: Lato;
       font-size: $medium-font*0.9;
     }
 }
@@ -119,7 +121,7 @@
         }
     }
     @media (max-width: $desktop-breakpoint) { //here in mobile
-        padding: $s-size*1.15 0;
+        padding: $s-size*0.8 0;
         font-size: $s-size*0.45;
     }
 }

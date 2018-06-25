@@ -6,8 +6,8 @@ import Testimonial from './Testimonial';
 export const Testimonials = () => (
     <div className="testimonials">
         <div className="content-container">
+            {/* <h1 className="testimonials__title">Some of our great clients</h1> */}
             <div className="testimonials__content">
-
                 <Testimonial
                     image="person1.jpg"
                     fullName="Jean-Michel Hermange"

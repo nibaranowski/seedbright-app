@@ -1,11 +1,11 @@
 .testimonial__content__card {
     padding: $l-size*1.05 $m-size*1.85;
-    width: 31.5rem;
+    width: 29.5rem;
     border-radius: 2.5px;
     background-color: #ffffff;
     box-shadow: 0 1px 8.5px 0 rgba(0, 0, 0, 0.15);
     @media (max-width: $desktop-breakpoint) { //here in mobile
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
     h3 {
         @extend .tp;
@@ -47,7 +47,7 @@
     padding: 0.65rem 0rem;
     quotes: "\201C""\201D""\2018""\2019";
     height: 120px;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 16px;
     font-weight: 300;
     font-style: normal;
@@ -58,7 +58,7 @@
     color: $grey;
     &:before {
         content: open-quote;
-        font-family: Avenir;
+        font-family: Lato;
         font-size: 28px;
         font-weight: 900;
         font-style: normal;

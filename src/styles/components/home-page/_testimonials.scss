@@ -25,3 +25,8 @@
         flex-direction: column;
     }
 }
+
+.testimonials__title {
+    @extend .t1;
+    margin-bottom: 6rem;
+}
