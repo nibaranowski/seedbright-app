@@ -9,6 +9,7 @@ export const MainWorkPage = () => (
                 <div className="main-workpage__content__title">
                     <h1>Discover our latest projects.</h1>
                 </div>
+                <br />
                 <div className="main-workpage__content__filters">
                     <Link className="main-workpage__content__filters__filter--underline" to="/work">
                         <h2>Everything</h2>

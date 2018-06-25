@@ -12,7 +12,7 @@ export const OfficeContact = () => (
                         <div className="officeContact__content__text__offices__office">
                             <h3>Brussels</h3>
                             <p>
-                                Av. des Grands-Prix 43
+                                av. des Grands-Prix 43
                                 <br />
                                 Brussels 1150
                                 <br />

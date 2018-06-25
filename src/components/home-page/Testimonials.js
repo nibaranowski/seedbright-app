@@ -6,9 +6,6 @@ import Testimonial from './Testimonial';
 export const Testimonials = () => (
     <div className="testimonials">
         <div className="content-container">
-            <div className="testimonials__title">
-                <h1>Find what our customers say.</h1>
-            </div>
             <div className="testimonials__content">
 
                 <Testimonial
@@ -20,7 +17,7 @@ export const Testimonials = () => (
                 <Testimonial
                     image="person2.jpg"
                     fullName="Benoit Gailly"
-                    jobTitle="prof., Louvain Business School"
+                    jobTitle="Prof., Louvain Business School"
                     quote=" Create things so easy beautiful, professional things so easy, you cit today.  professional things so easy, you cit today ."
                 />
                 <Testimonial

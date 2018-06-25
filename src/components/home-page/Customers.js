@@ -5,9 +5,9 @@ import { connect } from 'react-redux';
 export const Customers = () => (
     <div className="customers">
         <div className="content-container">
-            <div className="button-container">
+            {/* <div className="button-container">
                 <a className="blue-button" href="/work"><span>Our Clients</span></a>
-            </div>
+            </div> */}
             <div className="customers__content">
                 <div className="customers__content__logo">
                     <img src="images/logo1.png" alt="Kickstarter" />

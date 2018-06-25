@@ -14,7 +14,7 @@ export const Footer = () => (
                 <div className="footer__sections">
                     <div className="footer__sections__column">
                         <div className="footer__sections__column__title">
-                            <h2>COMPANY</h2>
+                            <h2>Company</h2>
                         </div>
                         <Link className="footer__sections__column__subtitle" to="/work">
                             <h3>About</h3>
@@ -31,7 +31,7 @@ export const Footer = () => (
                     </div>
                     <div className="footer__sections__column">
                         <div className="footer__sections__column__title">
-                            <h2>RESOURCES</h2>
+                            <h2>Resources</h2>
                         </div>
                         <Link className="footer__sections__column__subtitle " to="/support">
                             <h3>Support</h3>
@@ -45,7 +45,7 @@ export const Footer = () => (
                     </div>
                     <div className="footer__sections__column">
                         <div className="footer__sections__column__title">
-                            <h2>CONTACT</h2>
+                            <h2>Contact</h2>
                         </div>
                         <div className="footer__sections__column__subtitle--mod">
                             <h3>Marszalkowska 18/29 <br /> 00-590 Warsaw</h3>

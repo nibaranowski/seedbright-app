@@ -9,18 +9,10 @@
         margin-bottom: 5rem;
     }
     h3 {
+        @extend .tp;
         margin-top: 2.1rem;
         padding-top: 0.2rem;
         margin-bottom: -0.2rem;
-        font-family: Avenir;
-        font-size: 1.6rem*1;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 2;
-        letter-spacing: 0.05rem;
-        text-align: justify;
-        color: $main-blue;
     }
 
 }
@@ -43,19 +35,11 @@
 
 
 .method__content__card__text {
+    @extend .p;
     background: none;
     border-left: none;
     margin: 0.2rem 0rem;
     margin-bottom: -0.5rem;
     padding: 0.65rem 0rem;
     height: 120px;
-    font-family: Avenir;
-    font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.4;
-    letter-spacing: normal;
-    text-align: justify;
-    color: $grey;
 }

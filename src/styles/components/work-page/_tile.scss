@@ -60,32 +60,16 @@
 
 .tile__content__card__text {
     h3 {
+        @extend .tp;
         margin-top: 1rem;
         padding-top: 0.2rem;
         margin-bottom: -0.2rem;
-        font-family: Avenir;
-        font-size: 1.6rem*1;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 2;
-        letter-spacing: 0.05rem;
-        text-align: justify;
-        color: $main-blue;
     }
     h4 {
+        @extend .stp;
         margin-bottom: -1rem;
         margin-top: 0;
         padding-top: 0;
-        font-family: Avenir;
-        font-size: 1.2rem*1;
-        font-weight: 300;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 2;
-        letter-spacing: 0.05rem;
-        text-align: justify;
-        color: $grey;
         padding-bottom: 0;
         @media (max-width: $desktop-breakpoint) { //here in mobile
             margin-bottom: -0.6rem;
