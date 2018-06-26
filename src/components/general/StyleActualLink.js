@@ -7,7 +7,7 @@ export default class StyleActualLink extends React.Component {
         return (
             <Link style={{color: this.props.color}}  to={this.props.link}>
                 <img src={"/images/" + this.props.image} />
-                <span className="styleActualLink__text">{this.props.title}</span>
+                <span>{this.props.title}</span>
             </Link>
         );
     }

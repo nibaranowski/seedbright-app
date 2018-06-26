@@ -21,7 +21,7 @@ export const NewsTile = () => (
                     title="Pencil the date"
                     subtitle="Get your pencils ready! Ueno NYC will host Draft & Draw on Friday, June 22nd."
                     page="project1"
-                    margin=""
+                    margin="--mmargin"
                 />
                 <TileOneNews
                     image="project1.jpg"
@@ -37,7 +37,7 @@ export const NewsTile = () => (
                     title="Pencil the date"
                     subtitle="Get your pencils ready! Ueno NYC will host Draft & Draw on Friday, June 22nd."
                     page="project1"
-                    margin=""
+                    margin="--mmargin"
                 />
                 <TileOneNews
                     image="project1.jpg"
@@ -53,7 +53,7 @@ export const NewsTile = () => (
                     title="Pencil the date"
                     subtitle="Get your pencils ready! Ueno NYC will host Draft & Draw on Friday, June 22nd."
                     page="project1"
-                    margin=""
+                    margin="--mmargin"
                 />
             </div>
         </div>

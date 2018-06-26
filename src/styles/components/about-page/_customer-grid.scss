@@ -1,6 +1,6 @@
 .customerGrid {
     background: none;
-    margin-bottom: 14rem;
+    margin-bottom: 30rem;
     @media (max-width: $desktop-breakpoint) {
         margin-bottom: 14rem;
     }
@@ -9,7 +9,7 @@
 .customerGrid__content {
     width: 86%;
     margin-left: 7%;
-    height: 55rem;
+    height: 100rem;
     align-items: center;
     display: flex;
     justify-content: space-between;

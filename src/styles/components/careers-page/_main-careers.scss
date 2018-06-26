@@ -40,24 +40,45 @@
         margin-left: 0;
     }
     h1 {
-        @extend .lt1;
+        //border: red 1px solid;
         width: 80rem;
         margin-top: 0.45rem;
         margin-bottom: 0.45rem;
         padding-top: 0rem;
         padding-bottom: 0rem;
+        font-family: Avenir;
+        font-size: $xlarge-font*3.1;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: $main-blue;
         @media (max-width: $desktop-breakpoint) { //here in mobile
+            font-size: $xlarge-font*1.8;
             margin-top: 1.5rem;
+            line-height: 4.4rem;
             width: 30rem;
         }
     }
     h2 {
-        @extend .lt2;
+        margin-top: -2.1rem;
         padding-top: 0.0rem;
         margin-bottom: 5.5rem;
         width: 80rem;
+        font-family: Avenir;
+        font-size: $xlarge-font*3.1;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: justify;
+        color: $grey;
+        line-height: 1.5;
+        font-weight: 100 !important;
+        //border: green 1px solid;
         @media (max-width: $desktop-breakpoint) { //here in mobile
             width: 100%;
+            line-height: 1.4;
+            font-size: $xlarge-font*1.8;
         }
 
     }

@@ -1,15 +1,13 @@
 .tile__content__card {
-    margin-bottom: 4rem;
     text-decoration: none;
     padding: $l-size*1.05 $m-size*1.85;
-    width: 47%;
+    width: 45%;
     border-radius: 2.5px;
     background-color: #ffffff;
     box-shadow: 0 1px 8.5px 0 rgba(0, 0, 0, 0.15);
     @media (max-width: $desktop-breakpoint) { //here in mobile
         margin-bottom: 3rem;
         width: 92%;
-        height: auto;
         margin-top: 3rem;
     }
 }
@@ -38,20 +36,22 @@
 }
 
 .tile__content__card__image {
-    display: flex;
-    //border: 3px black solid;
     width: auto;
     height: 35rem;
-    overflow: hidden;
     position: relative;
-    align-items: center;
-    justify-content: center;
+    overflow: hidden;
+    border-radius: 0%;
+    padding-bottom: 0rem;
+
     img {
-        display: block;
+        //object-fit: cover;
+        display: inline;
+        margin: 0 auto;
         height: 100%;
-        transition: .2s ease;
-        -webkit-transform: translate3d(0,0,0);
-            transform: translate3d(0,0,0);
+        width: auto;
+        padding-bottom: 0;
+        transition: .4s ease;
+        backface-visibility: hidden;
         &:hover {
             opacity: 0.6
         }
@@ -60,16 +60,32 @@
 
 .tile__content__card__text {
     h3 {
-        @extend .tp--mod;
         margin-top: 1rem;
         padding-top: 0.2rem;
         margin-bottom: -0.2rem;
+        font-family: Avenir;
+        font-size: 1.6rem*1;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: 0.05rem;
+        text-align: justify;
+        color: $main-blue;
     }
     h4 {
-        @extend .stp;
         margin-bottom: -1rem;
         margin-top: 0;
         padding-top: 0;
+        font-family: Avenir;
+        font-size: 1.2rem*1;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: 0.05rem;
+        text-align: justify;
+        color: $grey;
         padding-bottom: 0;
         @media (max-width: $desktop-breakpoint) { //here in mobile
             margin-bottom: -0.6rem;

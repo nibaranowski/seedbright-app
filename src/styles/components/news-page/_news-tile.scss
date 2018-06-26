@@ -1,5 +1,5 @@
 .news-tile {
-    margin-top: 10rem;
+    margin-top: 19rem;
     background: none;
     margin-bottom: 0rem;
     @media (max-width: $desktop-breakpoint) { //here in mobile
@@ -9,7 +9,7 @@
 
 .news-tile__title {
     padding-left: $s-size;
-    font-family: Lato;
+    font-family: Avenir;
     font-size: $large-font*1.32;
     font-style: normal;
     font-stretch: normal;

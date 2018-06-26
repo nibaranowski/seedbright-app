@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo:400,700');
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
-
 @import './base/settings';
 @import './base/base';
 
@@ -16,16 +13,16 @@
 @import './components/general/visibility';
 @import './components/general/header';
 @import './components/general/footer';
-@import './components/general/text';
 
 @import './components/home-page/customers';
 @import './components/home-page/details';
+@import './components/home-page/main';
 @import './components/home-page/mainB';
 @import './components/home-page/testimonials';
 @import './components/home-page/testimonial';
 @import './components/home-page/style-link';
 
-@import './components/work-page/main-workpage';
+@import './components/work-page/main-workspace';
 @import './components/work-page/project-tile';
 @import './components/work-page/tile';
 
@@ -50,5 +47,3 @@
 @import './components/careers-page/office-detail';
 
 @import './components/contact-page/main-contact';
-@import './components/contact-page/office-contact';
-@import './components/contact-page/join-seedbright';

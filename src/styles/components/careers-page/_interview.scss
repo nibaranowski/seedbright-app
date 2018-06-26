@@ -1,6 +1,6 @@
 .interview {
     background: none;
-    margin-bottom: 16.0rem;
+    margin-bottom: 18.0rem;
     @media (max-width: $desktop-breakpoint) { //here in mobile
         margin-bottom: 8rem;
     }
@@ -59,25 +59,45 @@
         margin-left: 0;
     }
     h1 {
-        @extend .tlp;
         width: 100%;
         margin-top: 4.3rem;
         margin-bottom: 0;
         padding-top: 0rem;
         padding-bottom: 0rem;
+        font-family: Avenir;
+        font-size: $xlarge-font*2.1;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: $off-black;
         @media (max-width: $desktop-breakpoint) { //here in mobile
+            font-size: $xlarge-font.5;
             margin-top: 1.5rem;
+            line-height: 4.4rem;
             width: 30rem;
         }
     }
     p {
-        @extend .lp;
         margin-top: 1.9rem;
         margin-bottom: 4.2rem;
         padding-top: 0.4rem;
         width: 52rem;
+
+        font-family: Avenir;
+        font-size: $medium-font*2.7;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: justify;
+        color: $grey;
+        line-height: 1.6;
         @media (max-width: $desktop-breakpoint) { //here in mobile
             width: 100%;
+            line-height: 1.6;
+            font-size: $medium-font*2.4;
         }
     }
 }

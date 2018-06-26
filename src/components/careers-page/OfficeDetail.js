@@ -19,6 +19,7 @@ export const OfficeDetail = () => (
                 </div>
                 <div className="officeDetail__content__text">
                     <h1>Brussels</h1>
+                    <a className="office-link-map" href="#"><img src="/images/pin.png" /></a>
                     <h2>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. The industry's standard dummy.</h2>
                     <h3>Open positions</h3>
                     <div className="officeDetail__content__text__positions">

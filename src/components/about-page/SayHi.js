@@ -7,13 +7,13 @@ export const SayHi = () => (
     <div className="sayHi">
         <div className="sayHi__content__block">
             <div className="sayHi__content__block_text">
-                <h1>Let's work together!</h1>
+                <h1>Come on, say hi</h1>
             </div>
             <div className="sayHi__content__block_link">
                 <StyleLink
                     mail="mailto:hello@seedbright.com"
                     image="arrow_white.svg"
-                    title="Get in touch"
+                    title="Let's get in touch"
                     color="white"
                 />
             </div>
