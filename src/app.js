@@ -31,7 +31,7 @@ const renderApp = () => {
 ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
 renderApp();
-history.push('/work');
+history.push('/');
 
 {/*firebase.auth().onAuthStateChanged((user) => {
     if (user) {
