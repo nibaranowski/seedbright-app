@@ -48,6 +48,7 @@
         padding-left: 0rem;
         margin-left: $s-size;
     }
+}
 
 
 .main-workpage__content__filters__filter {
@@ -72,15 +73,16 @@
     }
     @media (max-width: $desktop-breakpoint) {
         font-family: Lato;
-        font-size: $medium-font*0.9;
+        font-size: $medium-font*1.1;
         width: 14rem;
     }
-  }
 }
+
 
 .main-workpage__content__filters__filter--underline {
     @extend .main-workpage__content__filters__filter;
     h2 {
-        font-weight: 500 !important;
+        font-weight: 600;
+        margin: 0;
     }
 }

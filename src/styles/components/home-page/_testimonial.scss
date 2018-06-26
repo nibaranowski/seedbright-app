@@ -8,7 +8,7 @@
         margin-bottom: 5rem;
     }
     h3 {
-        @extend .tp;
+        @extend .tp--mod;
         margin-top: 0.4rem;
         padding-top: 0.2rem;
         margin-bottom: -0.2rem;
@@ -77,7 +77,6 @@
       font-stretch: normal;
       letter-spacing: normal;
       text-align: justify;
-      color: $grey;
       line-height: 1.5;
       color: $grey;
     }

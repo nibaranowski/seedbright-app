@@ -18,16 +18,16 @@ export const MainWorkPage = () => (
                         <h2>Branding</h2>
                     </Link>
                     <Link className="main-workpage__content__filters__filter" to="/news">
-                        <h2>Marketing</h2>
+                        <h2>Design</h2>
                     </Link>
                     <Link className="main-workpage__content__filters__filter" to="/careers">
                         <h2>Development</h2>
                     </Link>
                     <Link className="main-workpage__content__filters__filter" to="/contact">
-                        <h2>Product</h2>
+                        <h2>Strategy</h2>
                     </Link>
                     <Link className="main-workpage__content__filters__filter" to="/careers">
-                        <h2>Design</h2>
+                        <h2>Marketing</h2>
                     </Link>
                 </div>
             </div>

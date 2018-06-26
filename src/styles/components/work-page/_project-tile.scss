@@ -14,19 +14,26 @@
     color: $main-blue;
     text-decoration: none;
     width: 100%;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.5rem;
     h1 {
         font-weight: bold;
         margin: 0;
     }
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        margin-bottom: 1.8rem;
+    }
 }
 
 .project-tile__content{
-    width: 100%;
+    //border: 3px red solid;
+    width: 96%;
     align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 5px;
+    margin-left: 2%;
+    margin-right: 5rem;
     flex-wrap: wrap;
     padding: 0 0;
     @media (max-width: $desktop-breakpoint) { //here in mobile

@@ -7,7 +7,7 @@ import StyleActualLink from '../general/StyleActualLink';
 export const Customers = () => (
     <div className="details">
         <div className="content-container">
-            <h1 className="details__content__title">We aim for the best</h1>
+            <h1 className="details__content__title">We aim for the best.</h1>
             <div className="details__content">
                 <div className="details__content__detail">
                     {/* <div className="details__content__detail__img">

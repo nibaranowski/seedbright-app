@@ -95,6 +95,12 @@
     }
 }
 
+.tp--mod { //title-p
+    @extend .tp;
+    //color: $off-black;
+    //font-weight: 500;
+}
+
 .stp { //subtitle-p
     font-family: $main-font;
     font-size: 1.2rem;
