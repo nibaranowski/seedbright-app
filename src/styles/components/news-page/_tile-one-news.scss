@@ -55,7 +55,8 @@
         transition: .4s ease;
         backface-visibility: hidden;
         &:hover {
-            opacity: 0.6
+            opacity: 0.6;
+            width: auto;
         }
         @media (max-width: $desktop-breakpoint) { //here in mobile
             height: 90%;

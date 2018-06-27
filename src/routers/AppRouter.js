@@ -1,6 +1,10 @@
 import React from 'react';
 import { Router, Route, Switch, Link, NavLink } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+
+
 import HomePage from '../components/pages/HomePage';
 import WorkPage from '../components/pages/WorkPage';
 import AboutPage from '../components/pages/AboutPage';

@@ -81,6 +81,7 @@
 }
 
 .mainB__content__image {
+    //@extend .easeIn;
     display: block;
     margin-left: 3.2rem;
     img {
@@ -93,6 +94,7 @@
 }
 
 .mainB__image {
+    //@extend .easeIn;
     display: block;
     margin-left: 3.2rem;
     img {

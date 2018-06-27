@@ -4,7 +4,14 @@ import { connect } from 'react-redux';
 
 export const CustomerGrid = () => (
     <div className="customerGrid">
-        <div className="customerGrid__content">
+        <div
+            data-aos="fade-in"
+            data-aos-duration="200"
+            data-aos-delay="0"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
+            className="customerGrid__content"
+        >
             <img src="images/big_logo1.png" alt="CoHappy" />
             <img src="images/big_logo2.png" alt="BNP Cardif" />
             <img src="images/big_logo3.png" alt="Cluball" />

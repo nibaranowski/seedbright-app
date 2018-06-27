@@ -10,7 +10,14 @@ export const Methods = () => (
                 <h1>We are unique.</h1>
                 <h2>How we work</h2>
             </div>
-            <div className="methods__content">
+            <div
+                data-aos="fade-in"
+                data-aos-duration="200"
+                data-aos-delay="0"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+                className="methods__content"
+            >
 
                 <Method
                     image="method1.png"

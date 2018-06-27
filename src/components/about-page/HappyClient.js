@@ -8,7 +8,14 @@ export const HappyClient = () => (
                 <div className="happyClient__content__image">
                     <img src="/images/happy_client.png" />
                 </div>
-                <div className="happyClient__content__text">
+                <div
+                    // data-aos="fade-in"
+                    // data-aos-duration="200"
+                    // data-aos-delay="0"
+                    // data-aos-easing="ease-in"
+                    // data-aos-once="true"
+                    className="happyClient__content__text"
+                >
                     <h1>Our happy client.</h1>
                     <h2>They asked, we delivered</h2>
                     <h3>We love our client they love us back. <br className="hideTemp"/> It's that simple.</h3>

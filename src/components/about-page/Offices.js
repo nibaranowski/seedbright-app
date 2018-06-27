@@ -10,7 +10,14 @@ export const Offices = () => (
                     <h1>International presence.</h1>
                     <h2>We stay close to our clients</h2>
                 </div>
-            <div className="offices__content">
+            <div
+                data-aos="fade-in"
+                data-aos-duration="200"
+                data-aos-delay="0"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+                className="offices__content"
+                >
                 <Office
                     image="brussels.png"
                     title="Brussels"

@@ -3,12 +3,18 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import StyleActualLink from '../general/StyleActualLink';
 
-
 export const Customers = () => (
-    <div className="details">
+    <div data-aos='fade-right' className="details">
         <div className="content-container">
             <h1 className="details__content__title">We aim for the best.</h1>
-            <div className="details__content">
+            <div
+                // data-aos="fade-in"
+                // data-aos-duration="200"
+                // data-aos-delay="0"
+                // data-aos-easing="ease-in"
+                // data-aos-once="true"
+                className="details__content"
+            >
                 <div className="details__content__detail">
                     {/* <div className="details__content__detail__img">
                         <img src="images/m_speed.svg" alt="Speed" />
@@ -78,7 +84,14 @@ export const Customers = () => (
             </div>
 
             <div className="details__content__main">
-                <img src="images/main_option1.jpg" alt="main" />
+                <img
+                data-aos="fade-in"
+                data-aos-duration="600"
+                data-aos-delay="0"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+                className="details__content"
+                src="images/main_option1.jpg" alt="main" />
             </div>
 
         </div>

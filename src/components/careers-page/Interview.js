@@ -8,7 +8,14 @@ export const Interview = () => (
         <div className="content-container">
             <div className="interview__content">
                 <div className="interview__content__illustration">
-                    <img src="/images/main_illustration_interview.png" />
+                    <img
+                        data-aos="fade-in"
+                        data-aos-duration="600"
+                        data-aos-delay="0"
+                        data-aos-easing="ease-in"
+                        data-aos-once="true"
+                        src="/images/main_illustration_interview.png"
+                    />
                 </div>
                 <div className="interview__content__text">
                     <h1>Interview process</h1>
