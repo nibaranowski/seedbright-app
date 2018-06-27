@@ -4,17 +4,10 @@ import { connect } from 'react-redux';
 import StyleActualLink from '../general/StyleActualLink';
 
 export const Customers = () => (
-    <div data-aos='fade-right' className="details">
+    <div className="details">
         <div className="content-container">
             <h1 className="details__content__title">We aim for the best.</h1>
-            <div
-                // data-aos="fade-in"
-                // data-aos-duration="200"
-                // data-aos-delay="0"
-                // data-aos-easing="ease-in"
-                // data-aos-once="true"
-                className="details__content"
-            >
+            <div className="details__content">
                 <div className="details__content__detail">
                     {/* <div className="details__content__detail__img">
                         <img src="images/m_speed.svg" alt="Speed" />
