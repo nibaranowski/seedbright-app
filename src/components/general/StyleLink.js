@@ -6,7 +6,7 @@ export default class StyleLink extends React.Component {
     render() {
         return (
             <a style={{color: this.props.color}}  href={this.props.mail}>
-                <img src={"/images/" + this.props.image} />
+                <img className="linkArrow" src={"/images/" + this.props.image} />
                 <span className="styleLink__text">{this.props.title}</span>
             </a>
         );

@@ -18,8 +18,9 @@
     padding-left: $s-size;
     padding-right: $s-size;
     @media (max-width: $desktop-breakpoint) {
+        border: 1px red solid;
         width: 90%;
-        margin-left: 10%;
+        //margin-left: 10%;
         padding-right: 0;
     }
 

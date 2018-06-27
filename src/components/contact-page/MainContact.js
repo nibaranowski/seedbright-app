@@ -10,7 +10,7 @@ export const MainContact = () => (
                 </div>
                 <div className="mainContact__content__text">
                     <h1>Get in touch.</h1>
-                    <h2>We're open for business</h2>
+                    <h2>Always happy to meet</h2>
                     <h3><a href="#">Business</a></h3>
                     <h3><a href="#">Careers</a></h3>
                     <h3><a href="#">Say hello</a></h3>

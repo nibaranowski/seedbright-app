@@ -36,6 +36,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         margin-left: 0;
+        margin-bottom: 0;
     }
     h1 {
         @extend .t1;
@@ -55,6 +56,7 @@
         width: 60rem;
         @media (max-width: $desktop-breakpoint) { //here in mobile
             width: 100%;
+            margin-bottom: -2rem;
         }
     }
 }
@@ -104,12 +106,20 @@
     }
     @media (max-width: $desktop-breakpoint) { //here in mobile
         margin-right: 0rem;
+        margin-bottom: -2rem;
     }
 
 }
 
 .missions__content__link {
     float: right;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-right: 7rem;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        float: right;
+        border: 1px red solid;
+        margin-top: 1rem;
+        margin-right: 0rem;
+        margin-left: 16rem;
+    }
 }

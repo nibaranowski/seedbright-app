@@ -6,9 +6,11 @@
     border-radius: 2.5px;
     background-color: #ffffff;
     box-shadow: 0 1px 8.5px 0 rgba(0, 0, 0, 0.15);
+    margin-top: 0;
     @media (max-width: $desktop-breakpoint) { //here in mobile
-        margin-bottom: 2rem;
-        width: 92%;
+        margin-bottom: 5rem;
+        width: 90%;
+        padding: $l-size*1.05 $m-size*1.65;
     }
 }
 
@@ -87,7 +89,8 @@
         padding-top: 0.8rem;
         padding-bottom: 0;
         @media (max-width: $desktop-breakpoint) { //here in mobile
-            margin-bottom: 3rem;
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
         }
     }
 }

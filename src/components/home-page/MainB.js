@@ -8,7 +8,7 @@ export const MainB = () => (
         <div className="content-container">
             <div className="mainB__content">
                 <div className="mainB__content__text">
-                    <h1>Digital Product Makers</h1>
+                    <h1>Digital Products Makers</h1>
                     <p>At Seedbright, we focus on designing, developing and implementing one-of-a-kind digital products and customer experience.</p>
                     <StyleLink
                         mail="mailto:hello@seedbright.com"

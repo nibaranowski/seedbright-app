@@ -1,6 +1,6 @@
 .sayHi {
     background: none;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
     @media (max-width: $desktop-breakpoint) { //here in mobile
         margin-bottom: 4rem;
     }

@@ -11,8 +11,8 @@ export const Interview = () => (
                     <img src="/images/main_illustration_interview.png" />
                 </div>
                 <div className="interview__content__text">
-                    <h1>The Interview</h1>
-                    <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    <h1>Interview process</h1>
+                    <p>Start by sending our your application for a specific role. After a first screening process, we will hopefully invite you for a first round. Do mind that we really like case studies and practical tests.</p>
                     <div className="interview__content__text__link">
                         <StyleLink
                             mail="mailto:hello@seedbright.com"

@@ -29,7 +29,7 @@
     justify-content: space-between;
     padding: $m-size*1.2 0;
     @media (max-width: $desktop-breakpoint) { //here in mobile
-        padding: $s-size*1.15 0;
+        //padding: $s-size*1.15 0;
     }
 }
 
@@ -47,6 +47,9 @@
       font-weight: bold;
       margin: 0;
   }
+  @media (max-width: $desktop-breakpoint) { //here in mobile
+      //padding: $s-size*1.15 0;
+  }
 }
 
 .header__subtitle-content {
@@ -60,6 +63,7 @@
 
 
     @media (max-width: $desktop-breakpoint) {
+
         width: 100%;
         padding-left: 0;
         justify-content: space-between;
@@ -85,6 +89,7 @@
       color: darken($main-blue, 7%);
     }
     @media (max-width: $desktop-breakpoint) {
+        width: 12%;
         text-align: left;
         font-family: Lato;
         font-size: $medium-font*0.9;

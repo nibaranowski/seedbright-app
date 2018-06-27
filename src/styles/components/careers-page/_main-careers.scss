@@ -48,7 +48,7 @@
         padding-bottom: 0rem;
         @media (max-width: $desktop-breakpoint) { //here in mobile
             margin-top: 1.5rem;
-            width: 30rem;
+            width: 40rem;
         }
     }
     h2 {
@@ -57,7 +57,11 @@
         margin-bottom: 5.5rem;
         width: 80rem;
         @media (max-width: $desktop-breakpoint) { //here in mobile
+            width: 40rem;
             width: 100%;
+            text-align: left;
+            line-height: 1.1;
+            margin-top: 0rem;
         }
 
     }
@@ -70,8 +74,37 @@
         height: 75rem;
         width: auto;
         @media (max-width: $desktop-breakpoint) { //here in mobile
-            height: 50rem;
-            width: auto;
+            //border: 1px red solid;
+            width: 100%;
+            height: auto;
         }
+    }
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        //border: 1px red solid;
+        width: 100%;
+        display: none;
+    }
+}
+
+.mainCareers__image {
+    //border: 1px red solid;
+    display: block;
+    margin-left: 3.2rem;
+    img {
+        height: auto;
+        width: 50%;
+        @media (min-width: $desktop-breakpoint) { //here in desktop
+            display: none;
+        }
+        @media (max-width: $desktop-breakpoint) { //here in mobile
+            display: inline;
+            height: 55rem;
+            width: auto;
+            margin-left: 0;
+            padding-left: 0;
+        }
+    }
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        margin-left: $small-padding-left-mobile;
     }
 }
