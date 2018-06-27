@@ -31,7 +31,7 @@ const renderApp = () => {
 ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
 renderApp();
-history.push('/contact');
+history.push('/about');
 
 {/*firebase.auth().onAuthStateChanged((user) => {
     if (user) {

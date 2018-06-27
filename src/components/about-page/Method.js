@@ -10,7 +10,7 @@ export default class Method extends React.Component {
                     <img src={"/images/" + this.props.image} />
                 </div>
                 <h3>{this.props.title}</h3>
-                <p className="method__content__card__text">{this.props.text}</p>
+                <p>{this.props.text}</p>
             </div>
         );
     }

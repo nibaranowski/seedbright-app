@@ -6,22 +6,26 @@ import Method from './Method';
 export const Methods = () => (
     <div className="methods">
         <div className="content-container">
+            <div className="methods__text">
+                <h1>We are unique.</h1>
+                <h2>How we work</h2>
+            </div>
             <div className="methods__content">
 
                 <Method
                     image="method1.png"
                     title="What we do"
-                    text="We start by building a global vision for the product. Once defined, we use it as backboon to define features, design and build campaigns."
+                    text="We are specialists in everyting that touches digital, from product design, brand design, development, testing and growth hacking campaigns."
                 />
                 <Method
-                    image="method1.png"
+                    image="method2.png"
                     title="How we do it"
-                    text="We study the market in which the product is positioned. We talk to employees, customers and investors to understand how they perceive the company."
+                    text="We have a top-down approach: we start by studying what is the product and the value proposition and how it can translate in a strong and bold brand system."
                 />
                 <Method
-                    image="method1.png"
+                    image="method3.png"
                     title="Why we are unique"
-                    text="We don’t focus only on building a ‘pretty’ product. What we do is focusing on building a vision for the product. To do so, we focus on a multi-disciplinary approach."
+                    text="We are unique because of our exhaustive approach and the talent that we bring on the table. We have a unique sets of designers, developers and strategists."
                 />
             </div>
         </div>

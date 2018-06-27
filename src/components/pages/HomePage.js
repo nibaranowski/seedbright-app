@@ -1,5 +1,4 @@
 import React from 'react';
-import Main from '../home-page/Main';
 import MainB from '../home-page/MainB';
 import Details from '../home-page/Details';
 import Customers from '../home-page/Customers';

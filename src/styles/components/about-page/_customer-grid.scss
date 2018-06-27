@@ -1,15 +1,16 @@
 .customerGrid {
     background: none;
-    margin-bottom: 30rem;
+    margin-bottom: 8rem;
     @media (max-width: $desktop-breakpoint) {
         margin-bottom: 14rem;
     }
 }
 
 .customerGrid__content {
-    width: 86%;
-    margin-left: 7%;
-    height: 100rem;
+    //border: 1px red solid;
+    width: 80%;
+    margin-left: 10%;
+    height: 55rem;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -18,19 +19,23 @@
     padding-bottom: $m-size;
     padding-top: $m-size;
     img {
+        max-width: 14rem;
         margin-left: 4rem;
-        margin-right: 4rem;
+        margin-right: 8rem;
+        @media (max-width: $desktop-breakpoint) {
+            max-width: 40%;
+            margin-bottom: 1.8rem;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
     }
     @media (max-width: $desktop-breakpoint) {
+        //border: 1px red solid;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 80%;
         padding-right: 0;
-        margin-left: 10%;
-        margin-right: 10%;
-        img {
-            max-width: 18rem;
-        }
+        height: 80rem;
     }
 
 }

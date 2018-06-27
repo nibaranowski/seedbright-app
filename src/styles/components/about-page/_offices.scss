@@ -1,28 +1,11 @@
 .offices {
     background: none;
-    margin-bottom: 6rem;
-}
-
-.offices__title {
-    padding-left: $s-size;
-    font-family: Avenir;
-    font-size: $large-font*1.32;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.0rem;
-    color: $main-blue;
-    text-decoration: none;
-    width: 100%;
-    margin-bottom: 3.5rem;
-    h1 {
-        font-weight: bold;
-        margin: 0;
-    }
+    margin-bottom: 8rem;
 }
 
 .offices__content{
-    width: 98%;
+    width: 75%;
+    margin-left: 12.5%;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -31,13 +14,15 @@
     @media (max-width: $desktop-breakpoint) { //here in mobile
         padding: $s-size*1.15 0;
         flex-direction: column;
+        width: 85%;
+        margin-left: 7.5%;
     }
 }
 
 .office__content__text {
     padding-top: 10.2rem;
     margin-top: 3.3rem;
-    margin-bottom: 6.2rem;
+    margin-bottom: 4.2rem*0.81;
     margin-left: 0rem;
     align-items: flex-start;
     flex-direction: column;
@@ -54,44 +39,29 @@
         margin-left: 0;
     }
     h1 {
+        @extend .t1;
         width: 40rem;
         margin-top: 0rem;
         margin-bottom: 0;
         padding-top: 0rem;
         padding-bottom: 0rem;
-        font-family: Avenir;
-        font-size: $xlarge-font*2;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        letter-spacing: normal;
-        text-align: left;
-        color: $main-blue;
         @media (max-width: $desktop-breakpoint) { //here in mobile
-            font-size: $xlarge-font*1.5;
-            margin-top: 1.5rem;
-            width: 30rem;
-            margin-left: $small-padding-left-mobile;
+            width: 80%;
+            margin-left: 0;
+            line-height: 1.2;
+            margin-top: 0.2rem;
         }
     }
     h2 {
-        margin-top: -1.3rem;
+        @extend .t2;
         padding-top: 0.0rem;
+        margin-bottom: 6rem;
         width: 45rem;
-        font-family: Avenir;
-        font-size: $xlarge-font*2;
-        font-weight: 300;
-        font-style: normal;
-        font-stretch: normal;
-        letter-spacing: normal;
-        text-align: justify;
-        color: $grey;
-        line-height: 1.5;
         @media (max-width: $desktop-breakpoint) { //here in mobile
-            width: 100%;
-            line-height: 1.4;
-            font-size: $xlarge-font*1.5;
-            margin-left: $small-padding-left-mobile;
+            width: 80%;
+            margin-left: 0;
+            line-height: 1.2;
+            margin-top: 1rem;
         }
     }
 }

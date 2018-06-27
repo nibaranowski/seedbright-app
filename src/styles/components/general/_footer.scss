@@ -1,8 +1,8 @@
 .footer {
     background: none;
-    margin-bottom: 9.2rem;
+    margin-bottom: 8rem;
     @media (max-width: $desktop-breakpoint) {
-        margin-bottom: 7.2rem;
+        margin-bottom: 4rem;
     }
 }
 
@@ -30,8 +30,9 @@
 }
 
 .footer__title-content__title {
+    padding-top: 2.2rem;
     font-family: Archivo;
-    font-size: $large-font*1.1;
+    font-size: $large-font*2;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -59,16 +60,17 @@
     @media (max-width: $desktop-breakpoint) {
         width: 100%;
         padding-left: 0;
-        margin-top: 1.3rem;
+        margin-top: 0.7rem;
         width: 100%;
         justify-content: space-between;
+        padding-top: 0;
     }
 }
 
 .footer__sections__column {
     width: 18rem;
     margin-top: 4rem;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: $medium-font*1.3;
     font-weight: 500;
     font-style: normal;
@@ -82,7 +84,7 @@
       margin: 0;
     }
     @media (max-width: $desktop-breakpoint) {
-      font-family: Avenir;
+      font-family: Lato;
       font-size: $medium-font*0.9;
     }
 }
@@ -92,23 +94,12 @@
     display: flex;
     justify-content: space-between;
     padding: $m-size*0.8 0;
-    color: $main-blue;
     text-decoration: none;
     width: 100%;
     h2 {
-        font-family: Archivo;
-        font-size: $large-font*1.37;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        font-weight: 600;
-        letter-spacing: 0.05rem;
+        @extend .tp;
         margin: 0;
-        margin-bottom: 0.5rem;
-        @media (max-width: $desktop-breakpoint) {
-            font-size: $large-font*1;
-            font-size: $large-font*1;
-        }
+        margin-bottom: 0.0rem;
     }
     @media (max-width: $desktop-breakpoint) { //here in mobile
         padding: $s-size*1.15 0;
@@ -116,30 +107,21 @@
 }
 
 .footer__sections__column__subtitle {
-        color: #6b7c93;
         display: block;
         text-decoration: none;
         width: 100%;
-        margin-top: 0.7rem;
+        margin-top: 0.5rem;
     h3 {
-        boder: green 1px solid;
-        color: #6b7c93;
+        @extend .sp;
         width: 10rem;
-        font-family: Avenir;
-        font-size: $s-size*1.2;
-        font-weight: 400;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
-        text-align: justify;
         margin: 0;
-    }
-    &:hover {
-      color: darken(#6b7c93, 7%);
+        padding-bottom: 1rem;
+        &:hover {
+          color: darken(#6b7c93, 7%) !important;
+        }
     }
     @media (max-width: $desktop-breakpoint) { //here in mobile
-        padding: $s-size*1.15 0;
+        padding: $s-size*0.8 0;
         font-size: $s-size*0.45;
     }
 }

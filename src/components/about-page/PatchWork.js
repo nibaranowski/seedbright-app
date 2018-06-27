@@ -7,8 +7,8 @@ export const PatchWork = () => (
         <div className="content-container">
             <div className="patchWork__content">
                 <div className="patchWork__content__text">
-                    <h1>Always ready.</h1>
-                    <h2>Minds and hearts at work.</h2>
+                    <h1>We are passionate.</h1>
+                    <h2>Multi-domain expertise at work.</h2>
                 </div>
             </div>
         </div>

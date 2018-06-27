@@ -7,8 +7,8 @@ export const Offices = () => (
     <div className="offices">
         <div className="content-container">
                 <div className="office__content__text">
-                    <h1>We're international.</h1>
-                    <h2>Bridging the East and the West</h2>
+                    <h1>International presence.</h1>
+                    <h2>We stay close to our clients</h2>
                 </div>
             <div className="offices__content">
                 <Office
