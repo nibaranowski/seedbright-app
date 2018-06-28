@@ -3,16 +3,15 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import TileOneNews from './TileOneNews';
 
+import Fade from 'react-reveal/Fade';
+
 export const NewsTile = () => (
     <div className="news-tile">
         <div className="content-container">
             <div className="news-tile__content">
-                <span
-                    data-aos="fade-in"
-                    data-aos-duration="500"
-                    data-aos-delay="0"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                <Fade
+                    duration={500}
+                    delay={0}
                 >
                     <TileOneNews
                         image="news_homepage.png"
@@ -22,13 +21,10 @@ export const NewsTile = () => (
                         page="/news/homepage"
                         margin=""
                     />
-                </span>
-                <span
-                    data-aos="fade-in"
-                    data-aos-duration="500"
-                    data-aos-delay="200"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                </Fade>
+                <Fade
+                    duration={500}
+                    delay={200}
                 >
                     <TileOneNews
                         image="news_krinner.png"
@@ -38,13 +34,10 @@ export const NewsTile = () => (
                         page="/news/krinner"
                         margin=""
                     />
-                </span>
-                <span
-                    data-aos="fade-in"
-                    data-aos-duration="500"
-                    data-aos-delay="0"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                </Fade>
+                <Fade
+                    duration={500}
+                    delay={0}
                 >
                     <TileOneNews
                         image="news_brussels.png"
@@ -54,13 +47,10 @@ export const NewsTile = () => (
                         page="news/office"
                         margin=""
                     />
-                </span>
-                <span
-                    data-aos="fade-in"
-                    data-aos-duration="500"
-                    data-aos-delay="200"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                </Fade>
+                <Fade
+                    duration={500}
+                    delay={200}
                 >
                     <TileOneNews
                         image="news_impacteo.png"
@@ -70,13 +60,10 @@ export const NewsTile = () => (
                         page="news/cluball"
                         margin=""
                     />
-                </span>
-                <span
-                    data-aos="fade-in"
-                    data-aos-duration="500"
-                    data-aos-delay="0"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                </Fade>
+                <Fade
+                    duration={500}
+                    delay={0}
                 >
                     <TileOneNews
                         image="news_inno.png"
@@ -86,13 +73,10 @@ export const NewsTile = () => (
                         page="news/louvain"
                         margin=""
                     />
-                </span>
-                <span
-                    data-aos="fade-in"
-                    data-aos-duration="500"
-                    data-aos-delay="200"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                </Fade>
+                <Fade
+                    duration={500}
+                    delay={200}
                 >
                     <TileOneNews
                         image="news_bhive.png"
@@ -102,13 +86,10 @@ export const NewsTile = () => (
                         page="news/bhive"
                         margin=""
                     />
-                </span>
-                <span
-                    data-aos="fade-in"
-                    data-aos-duration="500"
-                    data-aos-delay="0"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                </Fade>
+                <Fade
+                    duration={500}
+                    delay={0}
                 >
                     <TileOneNews
                         image="news_cluball.png"
@@ -118,13 +99,10 @@ export const NewsTile = () => (
                         page="news/cluball"
                         margin=""
                     />
-                </span>
-                <span
-                    data-aos="fade-in"
-                    data-aos-duration="500"
-                    data-aos-delay="200"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                </Fade>
+                <Fade
+                    duration={500}
+                    delay={200}
                 >
                     <TileOneNews
                         image="news_helloworld.png"
@@ -134,7 +112,7 @@ export const NewsTile = () => (
                         page="news/sblaunch"
                         margin=""
                     />
-                </span>
+                </Fade>
             </div>
         </div>
     </div>

@@ -17,7 +17,6 @@
 @import './components/general/header';
 @import './components/general/footer';
 @import './components/general/text';
-@import './components/general/tile';
 @import './components/general/style-link';
 
 @import './components/home-page/customers';
@@ -28,8 +27,8 @@
 @import './components/home-page/style-link';
 
 @import './components/work-page/main-workpage';
-@import './components/work-page/project-tile';
-
+@import './components/work-page/work-tile';
+@import './components/work-page/tile-one-work';
 
 @import './components/about-page/main-about';
 @import './components/about-page/methods';

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import StyleActualLink from '../general/StyleActualLink';
 
+import Fade from 'react-reveal/Fade';
+
 export const Customers = () => (
     <div className="details">
         <div className="content-container">
@@ -77,14 +79,15 @@ export const Customers = () => (
             </div>
 
             <div className="details__content__main">
-                <img
-                data-aos="fade-in"
-                data-aos-duration="600"
-                data-aos-delay="0"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
-                className="details__content"
-                src="images/main_option1.jpg" alt="main" />
+                <Fade
+                    duration={500}
+                    delay={0}
+                >
+                    <img
+                    className="details__content"
+                    src="images/main_option1.jpg" alt="main"
+                    />
+                </Fade>
             </div>
 
         </div>

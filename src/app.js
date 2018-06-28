@@ -1,3 +1,5 @@
+// noprotect
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -9,8 +11,6 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 {/*import { firebase } from './firebase/firebase';*/}
 import LoadingPage from './components/pages/LoadingPage';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const store = configureStore();
 
@@ -21,24 +21,25 @@ const jsx = (
 );
 
 let hasRendered = false;
-const renderApp = () => {
 
+//
+// setTimeout(function(){
+//     ReactDOM.render(<LoadingPage />, document.getElementById('app'));
+// }, 1000)
+//
+
+
+const renderApp = () => {
     if (!hasRendered) {
         ReactDOM.render(jsx, document.getElementById('app'));
         hasRendered = true;
-        AOS.init({
-            startEvent: 'load',
-            duration : 1000
-        })
     }
 };
 
-
-
-ReactDOM.render(<LoadingPage />, document.getElementById('app'));
-
 renderApp();
+
 history.push('/');
+
 
 {/*firebase.auth().onAuthStateChanged((user) => {
     if (user) {

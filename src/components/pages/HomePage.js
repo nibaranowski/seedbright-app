@@ -7,8 +7,6 @@ import Testimonials from '../home-page/Testimonials';
 import Header from '../general/Header';
 import Footer from '../general/Footer';
 
-
-
 const HomePage = () => (
     <div>
         <Header

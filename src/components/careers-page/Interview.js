@@ -3,19 +3,21 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import StyleLink from '../general/StyleLink';
 
+import Fade from 'react-reveal/Fade';
+
 export const Interview = () => (
     <div className="interview">
         <div className="content-container">
             <div className="interview__content">
                 <div className="interview__content__illustration">
-                    <img
-                        data-aos="fade-in"
-                        data-aos-duration="600"
-                        data-aos-delay="0"
-                        data-aos-easing="ease-in"
-                        data-aos-once="true"
-                        src="/images/main_illustration_interview.png"
-                    />
+                    <Fade
+                        duration={500}
+                        delay={0}
+                    >
+                        <img
+                            src="/images/main_illustration_interview.png"
+                        />
+                    </Fade>
                 </div>
                 <div className="interview__content__text">
                     <h1>Interview process</h1>

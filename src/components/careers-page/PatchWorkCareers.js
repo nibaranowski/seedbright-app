@@ -2,42 +2,52 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
+import Fade from 'react-reveal/Fade';
+
 export const PatchWorkCareers = () => (
     <div className="patchWorkCareers">
         <div className="patchWorkCareers__content__images">
-            <img
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="300"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
-                className="patchWorkCareers__content__images__image1"
-                src="/images/patchwork1.png" />
-            <img
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="100"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
-                className="patchWorkCareers__content__images__image2"
-                src="/images/patchwork2.png" />
+            <Fade
+                bottom
+                duration={1000}
+                delay={300}
+            >
+                <img
+                    className="patchWorkCareers__content__images__image1"
+                    src="/images/patchwork1.png"
+                />
+            </Fade>
+            <Fade
+                bottom
+                duration={1000}
+                delay={100}
+            >
+                <img
+                    className="patchWorkCareers__content__images__image2"
+                    src="/images/patchwork2.png"
+                />
+            </Fade>
             <br />
-            <img
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="400"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
-                className="patchWorkCareers__content__images__image3"
-                src="/images/patchwork3.png" />
-            <img
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="0"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
-                className="patchWorkCareers__content__images__image4"
-                src="/images/patchwork4.png" />
+            <Fade
+                bottom
+                duration={1000}
+                delay={400}
+            >
+                <img
+                    className="patchWorkCareers__content__images__image3"
+                    src="/images/patchwork3.png"
+                />
+            </Fade>
+            <Fade
+                bottom
+                duration={1000}
+                delay={0}
+            >
+                <img
+                    className="patchWorkCareers__content__images__image4"
+                    src="/images/patchwork4.png"
+            />
+            </Fade>
         </div>
     </div>
 );

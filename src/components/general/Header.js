@@ -13,12 +13,7 @@ export default class Header extends React.Component {
                                 <h1>Seedbright.</h1>
                             </Link>
                         </div>
-                        <div
-                            // data-aos="fade-in"
-                            // data-aos-easing="linear"
-                            // data-aos-duration="400"
-                            className="header__subtitle-content"
-                        >
+                        <div className="header__subtitle-content">
                             <Link className={"header__subtitle" + this.props.workUnderline} to="/work">
                                 <h2>Work</h2>
                             </Link>

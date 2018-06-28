@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
+import Fade from 'react-reveal/Fade';
+
 export const PatchWork = () => (
     <div className="patchWork">
         <div className="content-container">
@@ -13,31 +15,37 @@ export const PatchWork = () => (
             </div>
         </div>
         <div className="patchWork__content__images">
-            <img
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="300"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
-                className="patchWork__content__images__image1"
-                src="/images/patch1.png" />
+            <Fade
+                bottom
+                duration={1000}
+                delay={200}
+            >
+                <img
+                    className="patchWork__content__images__image1"
+                    src="/images/patch1.png"
+                />
+            </Fade>
             <br />
-            <img
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="0"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
-                className="patchWork__content__images__image2"
-                src="/images/patch2.png" />
-            <img
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="600"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
-                className="patchWork__content__images__image3"
-                src="/images/patch3.png" />
+            <Fade
+                bottom
+                duration={1000}
+                delay={0}
+            >
+                <img
+                    className="patchWork__content__images__image2"
+                    src="/images/patch2.png"
+                />
+            </Fade>
+            <Fade
+                bottom
+                duration={1000}
+                delay={400}
+            >
+                <img
+                    className="patchWork__content__images__image3"
+                    src="/images/patch3.png"
+                />
+            </Fade>
         </div>
     </div>
 );

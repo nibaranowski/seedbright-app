@@ -1,11 +1,9 @@
 import React from 'react';
 import MainWorkPage from '../work-page/MainWorkPage';
-import ProjectTile from '../work-page/ProjectTile';
+import WorkTile from '../work-page/WorkTile';
 
 import Header from '../general/Header';
 import Footer from '../general/Footer';
-
-
 
 const WorkPage = () => (
     <div>
@@ -17,7 +15,7 @@ const WorkPage = () => (
             contactUnderline=""
         />
         <MainWorkPage />
-        <ProjectTile />
+        <WorkTile />
         <Footer />
     </div>
 );

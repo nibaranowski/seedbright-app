@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Method from './Method';
 
+import Fade from 'react-reveal/Fade';
+
 export const Methods = () => (
     <div className="methods">
         <div className="content-container">
@@ -10,31 +12,28 @@ export const Methods = () => (
                 <h1>We are unique.</h1>
                 <h2>How we work</h2>
             </div>
-            <div
-                data-aos="fade-in"
-                data-aos-duration="200"
-                data-aos-delay="0"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
-                className="methods__content"
+            <Fade
+                duration={200}
+                delay={0}
             >
-
-                <Method
-                    image="method1.png"
-                    title="What we do"
-                    text="We are specialists in everyting that touches digital, from product design, brand design, development, testing and growth hacking campaigns."
-                />
-                <Method
-                    image="method2.png"
-                    title="How we do it"
-                    text="We have a top-down approach: we start by studying what is the product and the value proposition and how it can translate in a strong and bold brand system."
-                />
-                <Method
-                    image="method3.png"
-                    title="Why we are unique"
-                    text="We are unique because of our exhaustive approach and the talent that we bring on the table. We have a unique sets of designers, developers and strategists."
-                />
-            </div>
+                <div className="methods__content">
+                    <Method
+                        image="method1.png"
+                        title="What we do"
+                        text="We are specialists in everyting that touches digital, from product design, brand design, development, testing and growth hacking campaigns."
+                    />
+                    <Method
+                        image="method2.png"
+                        title="How we do it"
+                        text="We have a top-down approach: we start by studying what is the product and the value proposition and how it can translate in a strong and bold brand system."
+                    />
+                    <Method
+                        image="method3.png"
+                        title="Why we are unique"
+                        text="We are unique because of our exhaustive approach and the talent that we bring on the table. We have a unique sets of designers, developers and strategists."
+                    />
+                </div>
+            </Fade>
         </div>
     </div>
 );

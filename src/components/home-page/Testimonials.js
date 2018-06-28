@@ -3,53 +3,46 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Testimonial from './Testimonial';
 
+import Fade from 'react-reveal/Fade';
+
 export const Testimonials = () => (
     <div className="testimonials">
         <div className="content-container">
             {/* <h1 className="testimonials__title">Some of our great clients</h1> */}
             <div className="testimonials__content">
-                <div
-                    data-aos="fade-in"
-                    data-aos-duration="200"
-                    data-aos-delay="0"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                <Fade
+                    duration={200}
+                    delay={0}
                 >
                     <Testimonial
                         image="person1.jpg"
                         fullName="Jean-Michel Hermange"
                         jobTitle="COO, BNP Cardif Belgium"
-                        quote=" Create things so easy beautiful, professional things so easy, you cit today.  professional things so easy, you cit today ."
+                        quote=" Seedbright brought a multi-industry expertise that helped us challenge our ideas about the future of digital insurance."
                     />
-                </div>
-                <div
-                    data-aos="fade-in"
-                    data-aos-duration="200"
-                    data-aos-delay="100"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                </Fade>
+                <Fade
+                    duration={200}
+                    delay={100}
                 >
                     <Testimonial
-                        image="person2.jpg"
+                        image="person2b.jpg"
                         fullName="Benoit Gailly"
                         jobTitle="Prof., Louvain Business School"
-                        quote=" Create things so easy beautiful, professional things so easy, you cit today.  professional things so easy, you cit today ."
+                        quote=" Working with Seedbright was a enjoyable experience: they delivered a powerful product on time and budget."
                     />
-                </div>
-                <div
-                    data-aos="fade-in"
-                    data-aos-duration="200"
-                    data-aos-delay="200"
-                    data-aos-easing="ease-in"
-                    data-aos-once="true"
+                </Fade>
+                <Fade
+                    duration={200}
+                    delay={200}
                 >
                     <Testimonial
-                        image="person3.jpg"
-                        fullName="Damien Jacquinet"
-                        jobTitle="Founder, impacteo"
-                        quote=" Create things so easy beautiful, professional things so easy, you cit today.  professional things so easy, you cit today ."
+                        image="person3.png"
+                        fullName="Michael Krinner"
+                        jobTitle="CEO, Krinner Solar"
+                        quote=" Seedbright helped us define technical specifications for the future development of our Cloud infrastructure"
                     />
-                </div>
+                </Fade>
             </div>
         </div>
     </div>
