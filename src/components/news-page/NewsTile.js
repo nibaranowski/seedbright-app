@@ -31,8 +31,7 @@ export const NewsTile = () => (
                         date="May 18"
                         title="Leading the solar revolution"
                         subtitle="We are happy to announce a new engagement with the worldwide leader builder of solar plants."
-                        page="/news/krinner"
-                        margin=""
+                        page="/news/krinner"margin=""
                     />
                 </Fade>
                 <Fade

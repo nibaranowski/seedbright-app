@@ -29,7 +29,7 @@ export const Testimonials = () => (
                         image="person2b.jpg"
                         fullName="Benoit Gailly"
                         jobTitle="Prof., Louvain Business School"
-                        quote=" Working with Seedbright was a enjoyable experience: they delivered a powerful product on time and budget."
+                        quote=" Working with Seedbright allowed us to design and develop a multi-platform innovation survey tool for a limited budget."
                     />
                 </Fade>
                 <Fade
