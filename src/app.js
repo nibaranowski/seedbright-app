@@ -36,7 +36,7 @@ const renderApp = () => {
 
 renderApp();
 
-history.push('/contact');
+history.push('/');
 
 
 {/*firebase.auth().onAuthStateChanged((user) => {
