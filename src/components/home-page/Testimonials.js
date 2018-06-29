@@ -11,7 +11,7 @@ export const Testimonials = () => (
             {/* <h1 className="testimonials__title">Some of our great clients</h1> */}
             <div className="testimonials__content">
                 <Fade
-                    duration={200}
+                    duration={400}
                     delay={0}
                 >
                     <Testimonial
@@ -22,7 +22,7 @@ export const Testimonials = () => (
                     />
                 </Fade>
                 <Fade
-                    duration={200}
+                    duration={400}
                     delay={100}
                 >
                     <Testimonial
@@ -33,7 +33,7 @@ export const Testimonials = () => (
                     />
                 </Fade>
                 <Fade
-                    duration={200}
+                    duration={400}
                     delay={200}
                 >
                     <Testimonial

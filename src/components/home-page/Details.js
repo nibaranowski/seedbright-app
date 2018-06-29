@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import StyleActualLink from '../general/StyleActualLink';
+import StyleActualLinkMod from '../general/StyleActualLinkMod';
 
 import Fade from 'react-reveal/Fade';
 
@@ -70,7 +70,7 @@ export const Customers = () => (
             </div>
 
             <div className="details__content__link">
-                <StyleActualLink
+                <StyleActualLinkMod
                     link="/about"
                     image="arrow.svg"
                     title="Learn More"

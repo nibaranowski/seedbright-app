@@ -16,9 +16,9 @@ export const JoinSeedbright = () => (
                         If you want to take your creativity to the next level, send us a line.
                     </p>
                     <StyleLink
-                        mail="mailto:hello@seedbright.com"
+                        mail="https://seedbright.typeform.com/to/cJT3BY"
                         image="arrow_white.svg"
-                        title="Get in touch"
+                        title="Get In Touch"
                         color="white"
                     />
                 </div>

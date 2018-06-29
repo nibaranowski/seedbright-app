@@ -14,16 +14,16 @@ export const Footer = () => (
                         <div className="footer__sections__column__title">
                             <h2>Company</h2>
                         </div>
-                        <Link className="footer__sections__column__subtitle" to="/work">
+                        <Link className="footer__sections__column__subtitle" to="/about">
                             <h3>About</h3>
                         </Link>
-                        <Link className="footer__sections__column__subtitle" to="/jobs">
+                        <Link className="footer__sections__column__subtitle" to="/careers">
                             <h3>Jobs</h3>
                         </Link>
-                        <Link className="footer__sections__column__subtitle" to="/blog">
-                            <h3>Blog</h3>
-                        </Link>
-                        <Link className="footer__sections__column__subtitle" to="/press">
+                        <div className="footer__sections__column__subtitle">
+                            <h3><a target="_blank" href="https://medium.com/seedbright">Blog</a></h3>
+                        </div>
+                        <Link className="footer__sections__column__subtitle" to="/contact">
                             <h3>Press</h3>
                         </Link>
                     </div>
@@ -31,7 +31,7 @@ export const Footer = () => (
                         <div className="footer__sections__column__title">
                             <h2>Resources</h2>
                         </div>
-                        <Link className="footer__sections__column__subtitle " to="/support">
+                        <Link className="footer__sections__column__subtitle " to="/contact">
                             <h3>Support</h3>
                         </Link>
                         <Link className="footer__sections__column__subtitle" to="/contact">
@@ -48,15 +48,18 @@ export const Footer = () => (
                         <div className="footer__sections__column__title">
                             <h2>Contact</h2>
                         </div>
-                        <div className="footer__sections__column__subtitle--mod">
-                            <h3>Facebook</h3>
+                        <div className="footer__sections__column__subtitle">
+                            <h3><a target="_blank" href="https://www.linkedin.com/company/seedbright">LinkedIn</a></h3>
                         </div>
-                        <Link className="footer__sections__column__subtitle" to="/twitter">
-                            <h3>Twitter</h3>
-                        </Link>
-                        <Link className="footer__sections__column__subtitle" to="/instagram">
-                            <h3>Instagram</h3>
-                        </Link>
+                        <div className="footer__sections__column__subtitle">
+                            <h3><a target="_blank" href="https://www.facebook.com/pg/seedbright.apps">Facebook</a></h3>
+                        </div>
+                        <div className="footer__sections__column__subtitle">
+                            <h3><a target="_blank" href="https://twitter.com/seedbrighttech">Twitter</a></h3>
+                        </div>
+                        <div className="footer__sections__column__subtitle">
+                            <h3><a target="_blank" href="https://www.instagram.com/seedbright">Instagram</a></h3>
+                        </div>
                     </div>
                 </div>
             </div>

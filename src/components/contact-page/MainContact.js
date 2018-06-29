@@ -11,9 +11,9 @@ export const MainContact = () => (
                 <div className="mainContact__content__text">
                     <h1>Get in touch.</h1>
                     <h2>Always happy to meet</h2>
-                    <h3><a href="#">Business</a></h3>
-                    <h3><a href="#">Careers</a></h3>
-                    <h3><a href="#">Say hello</a></h3>
+                    <h3><a target="_blank" href="https://seedbright.typeform.com/to/mglblB">Business</a></h3>
+                    <h3><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Careers</a></h3>
+                    <h3><a target="_blank" href="https://seedbright.typeform.com/to/K2u5PL">Say hello</a></h3>
                 </div>
             </div>
     </div>

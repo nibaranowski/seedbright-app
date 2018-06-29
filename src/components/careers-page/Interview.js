@@ -24,7 +24,7 @@ export const Interview = () => (
                     <p>Start by sending our your application for a specific role. After a first screening process, we will hopefully invite you for a first round. Do mind that we really like case studies and practical tests.</p>
                     <div className="interview__content__text__link">
                         <StyleLink
-                            mail="mailto:hello@seedbright.com"
+                            mail="https://seedbright.typeform.com/to/cJT3BY"
                             image="arrow.svg"
                             title="Join Us"
                             color="#4a73ff"

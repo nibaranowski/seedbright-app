@@ -18,14 +18,12 @@ export const OfficeContact = () => (
                                 <br />
                                 Belgium
                             </p>
-                            <div className="officeContact__content__text__offices__office__link">
-                                <StyleLink
-                                    mail="mailto:hello@seedbright.com"
-                                    image="arrow.svg"
-                                    title="Positions in Brussels"
-                                    color="#4a73ff"
-                                />
-                            </div>
+                            <StyleLink
+                                mail="https://seedbright.typeform.com/to/cJT3BY"
+                                image="arrow.svg"
+                                title="Positions in Brussels"
+                                color="#4a73ff"
+                            />
                         </div>
                         <div className="officeContact__content__text__offices__office">
                             <h3>Warsaw</h3>
@@ -36,14 +34,12 @@ export const OfficeContact = () => (
                                 <br />
                                 Poland
                             </p>
-                            <div className="officeContact__content__text__offices__office__link">
-                                <StyleLink
-                                    mail="mailto:hello@seedbright.com"
-                                    image="arrow.svg"
-                                    title="Positions in Brussels"
-                                    color="#4a73ff"
-                                />
-                            </div>
+                            <StyleLink
+                                mail="https://seedbright.typeform.com/to/cJT3BY"
+                                image="arrow.svg"
+                                title="Positions in Warsaw"
+                                color="#4a73ff"
+                            />
                         </div>
                     </div>
                 </div>

@@ -148,7 +148,7 @@
     //border: 1px red solid;
     display: flex;
     width: 50rem;
-    height: 40rem;
+    height: 34rem;
     flex-wrap: wrap;
     margin-left: 15.1rem;
     flex-direction: column;
@@ -156,6 +156,7 @@
 
     h4 {
         text-align: left;
+        margin-bottom: 1.4rem;
         a {
             margin-left: 0 !important;
             text-align: left;

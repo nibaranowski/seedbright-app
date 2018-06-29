@@ -9,7 +9,7 @@ export const MainAbout = () => (
         <div className="content-container">
             <div className="mainAbout__content">
                 <Fade
-                    duration={200}
+                    duration={400}
                     delay={0}
                 >
                     <div className="mainAbout__content__text">

@@ -36,7 +36,7 @@ const renderApp = () => {
 
 renderApp();
 
-history.push('/');
+history.push('/contact');
 
 
 {/*firebase.auth().onAuthStateChanged((user) => {
@@ -60,10 +60,18 @@ history.push('/');
 // import { withFormik, Form, Field } from 'formik';
 // import * as Yup from 'yup'
 //
+// import nodemailer from 'nodemailer';
+// import { smtp } from './config'
+//
+// let email = nodemailer.createTransport(smtp);
+//
+// app.email = email;
+//
 // const App = ({
 //     values,
 //     errors,
-//     touched
+//     touched,
+//     isSubmitting
 // }) => (
 //     <Form>
 //         <div>
@@ -82,7 +90,7 @@ history.push('/');
 //             <option value="free">Free</option>
 //             <option value="premium">Premium</option>
 //         </Field>
-//         <button>Submit</button>
+//         <button disabled={isSubmitting}>Submit</button>
 //
 //     </Form>
 // )
@@ -100,9 +108,16 @@ history.push('/');
 //     email: Yup.string().email('Email not valid').required('Email is required'),
 //     password: Yup.string().min(9, 'Password must be 9 characters or longer').required('Password is required')
 //   }),
-//     handleSubmit(values) {
-//        console.log(values)
-//     }
+//     handleSubmit(values, {resetForm, setErrors, setSubmitting }) {
+//         setTimeout(() => {
+//           if(values.email === 'andrew@test.io') {
+//             setErrors({ email: 'That email is already taken' })
+//           } else {
+//             resetForm()
+//           }
+//           setSubmitting(false)
+//         }, 2000)
+//       }
 // })(App)
 //
 // render(<FormikApp email="" password=""/>, document.getElementById('app'))

@@ -39,9 +39,9 @@ export const Missions = () => (
                 </div>
                 <div className="missions__content__link">
                     <StyleLink
-                        mail="mailto:hello@seedbright.com"
+                        mail="https://seedbright.typeform.com/to/cJT3BY"
                         image="arrow.svg"
-                        title="See current openings"
+                        title="See Current Openings"
                         color="#4a73ff"
                     />
                 </div>

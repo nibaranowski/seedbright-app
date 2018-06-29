@@ -11,9 +11,9 @@ export const SayHi = () => (
             </div>
             <div className="sayHi__content__block_link">
                 <StyleLink
-                    mail="mailto:hello@seedbright.com"
+                    mail="https://seedbright.typeform.com/to/K2u5PL"
                     image="arrow_white.svg"
-                    title="Get in touch"
+                    title="Get In Touch"
                     color="white"
                 />
             </div>

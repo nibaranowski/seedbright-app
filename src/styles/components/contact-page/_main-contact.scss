@@ -104,3 +104,12 @@
         }
     }
 }
+
+.officeDetail__content__menu {
+    a {
+       pointer-events: none;
+       cursor: default;
+        color: white;
+        display: hidden !important;
+    }
+}
