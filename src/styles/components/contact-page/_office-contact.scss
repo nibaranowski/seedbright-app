@@ -51,7 +51,6 @@
         color: $off-black;
         line-height: 1.5;
         font-weight: 100 !important;
-        //border: green 1px solid;
         @media (max-width: $desktop-breakpoint) { //here in mobile
             width: 100%;
             line-height: 1.4;
@@ -62,7 +61,6 @@
 }
 
 .officeContact__content__text__offices {
-    // border: 1px red solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

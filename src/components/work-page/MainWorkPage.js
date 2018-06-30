@@ -9,7 +9,7 @@ export const MainWorkPage = () => (
                 <div className="main-workpage__content__title">
                     <h1>Discover our latest projects.</h1>
                 </div>
-                <br />
+                {/* <br />
                 <div className="main-workpage__content__filters">
                     <Link className="main-workpage__content__filters__filter--underline" to="/work">
                         <h2>All</h2>
@@ -29,7 +29,7 @@ export const MainWorkPage = () => (
                     <Link className="main-workpage__content__filters__filter" to="/careers">
                         <h2>Marketing</h2>
                     </Link>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

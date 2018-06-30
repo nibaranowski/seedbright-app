@@ -63,7 +63,6 @@
 
 
 .missions__content__mission {
-    //border: 1px black solid;
     margin-top: 3.4rem;
     margin-left: 8.2rem;
     display: flex;
@@ -117,7 +116,6 @@
     margin-right: 7rem;
     @media (max-width: $desktop-breakpoint) { //here in mobile
         float: right;
-        border: 1px red solid;
         margin-top: 1rem;
         margin-right: 0rem;
         margin-left: 16rem;

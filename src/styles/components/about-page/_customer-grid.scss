@@ -7,7 +7,6 @@
 }
 
 .customerGrid__content {
-    //border: 1px red solid;
     width: 80%;
     margin-left: 10%;
     height: 55rem;
@@ -30,7 +29,6 @@
         }
     }
     @media (max-width: $desktop-breakpoint) {
-        //border: 1px red solid;
         flex-direction: column;
         justify-content: space-between;
         width: 80%;

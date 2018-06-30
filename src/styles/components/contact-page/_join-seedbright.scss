@@ -23,7 +23,6 @@
 
 .joinSeedbright__content__text {
     width: 100%;
-    // border: 2px red solid;
     padding-top: 0.0rem;
     margin-top: 0.0rem;
     margin-left: 0rem;
@@ -46,7 +45,6 @@
 .joinSeedbright__content__text__actualtext {
     margin-left: 12.5rem;
     margin-top: 2rem;
-    // border: 2px blue solid;
     width: 100%;
     h2 {
         margin-top: 3.6rem;
@@ -62,7 +60,6 @@
         color: $off-black;
         line-height: 1.5;
         font-weight: 100 !important;
-        //border: green 1px solid;
         @media (max-width: $desktop-breakpoint) { //here in mobile
             width: 100%;
             line-height: 1.4;
@@ -77,7 +74,6 @@
 }
 
 .joinSeedbright__content__text__bluerectangle {
-    // border: 2px red solid;
     height: 59rem;
     width: 100%;
     float: left;
@@ -120,5 +116,4 @@
     top: 81rem;
     left: 65rem;
     bottom: 0rem;
-    // border: 2px green solid;
 }

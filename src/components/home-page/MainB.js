@@ -14,7 +14,7 @@ const MainB = () => (
                     delay={0}
                 >
                     <div className="mainB__content__text">
-                        <h1>Digital Product Makers</h1>
+                        <h1>Digital Products Makers</h1>
                         <p>At Seedbright, we focus on designing, developing and implementing one-of-a-kind digital products and customer experience.</p>
                         <StyleLink
                             mail="https://seedbright.typeform.com/to/K2u5PL"
