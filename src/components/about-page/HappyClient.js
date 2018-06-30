@@ -15,7 +15,7 @@ export const HappyClient = () => (
                     <blockquote>
                         <p>“ With Seedbright, you know you are in good hands. I have worked with them on few projects I did at Fidor and they showed a level of creativity and commitment I have never experienced before.
 <br/>I can only but recommend working with these guys if you want to build a global brand and product. "</p>
-                        <footer>Germain Bahri, Fidor Bank</footer>
+                        <footer>Stanley Wack, Cubz</footer>
                     </blockquote>
                 </div>
             </div>
