@@ -21,7 +21,7 @@ export const MainAbout = () => (
                 </Fade>
                 <Fade
                     right
-                    duration={1000}
+                    duration={1200}
                     delay={400}
                 >
                     <div className="mainAbout__content__illustration">

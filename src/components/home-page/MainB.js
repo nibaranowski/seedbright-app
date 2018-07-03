@@ -26,7 +26,7 @@ const MainB = () => (
                 </Fade>
                 <Fade
                     right
-                    duration={1000}
+                    duration={1200}
                     delay={400}
                 >
                     <div className="mainB__content__image">
