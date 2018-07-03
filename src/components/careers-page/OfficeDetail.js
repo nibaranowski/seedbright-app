@@ -7,7 +7,7 @@ export const OfficeDetail = () => (
     <div className="officeDetail">
             <div className="officeDetail__content">
                 <div className="officeDetail__content__image">
-                    <img src="/images/office_detail.png" />
+                    <img src="/images/office_detail-min.png" />
                     <div className="officeDetail__content__image__rectangle">
                         <StyleActualLink
                             link={"https://www.instagram.com/seedbright/"}

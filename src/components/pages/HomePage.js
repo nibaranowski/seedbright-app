@@ -7,21 +7,27 @@ import Testimonials from '../home-page/Testimonials';
 import Header from '../general/Header';
 import Footer from '../general/Footer';
 
-const HomePage = () => (
-    <div>
-        <Header
-            workUnderline=""
-            aboutUnderline=""
-            newsUnderline=""
-            careersUnderline=""
-            contactUnderline=""
-        />
-        <MainB />
-        <Details />
-        <Customers />
-        <Testimonials />
-        <Footer />
-    </div>
-);
-
-export default HomePage;
+export default class HomePage extends React.Component {
+    componentDidMount () {
+        console.log('homePage mounted!')
+        window.scrollTo(0, 0);
+    }
+    render() {
+        return (
+            <div>
+                <Header
+                    workUnderline=""
+                    aboutUnderline=""
+                    newsUnderline=""
+                    careersUnderline=""
+                    contactUnderline=""
+                />
+                <MainB />
+                <Details />
+                <Customers />
+                <Testimonials />
+                <Footer />
+            </div>
+        );
+    }
+}

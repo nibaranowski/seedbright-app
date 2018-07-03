@@ -25,7 +25,7 @@ export const MainAbout = () => (
                     delay={400}
                 >
                     <div className="mainAbout__content__illustration">
-                        <img src="/images/main_illustration_about.jpg" />
+                        <img src="/images/main_illustration_about-min.jpg" />
                     </div>
                 </Fade>
             </div>
@@ -35,7 +35,7 @@ export const MainAbout = () => (
                 delay={100}
             >
                 <div className="mainAbout__image">
-                    <img src="/images/main_illustration_about.jpg" />
+                    <img src="/images/main_illustration_about-min.jpg" />
                 </div>
             </Fade>
         </div>

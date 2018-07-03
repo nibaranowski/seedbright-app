@@ -18,14 +18,14 @@ export const Offices = () => (
             >
                 <div className="offices__content">
                     <Office
-                        image="brussels.png"
+                        image="brussels-min.png"
                         title="Brussels"
                         street="43 Av. des Grands-Prix"
                         city="Brussels 1150"
                         country="Belgium"
                     />
                     <Office
-                        image="warsaw.png"
+                        image="warsaw-min.png"
                         title="Warsaw"
                         street="18/29 Marszalkowska"
                         city="Warsaw 00-590"

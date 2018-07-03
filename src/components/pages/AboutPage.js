@@ -10,26 +10,30 @@ import SayHi from '../about-page/SayHi';
 import Header from '../general/Header';
 import Footer from '../general/Footer';
 
-
-
-const AboutPage = () => (
-    <div>
-        <Header
-            workUnderline=""
-            aboutUnderline="--underline"
-            newsUnderline=""
-            careersUnderline=""
-            contactUnderline=""
-        />
-        <MainAbout />
-        <Methods />
-        <HappyClient />
-        <CustomerGrid />
-        <PatchWork />
-        <Offices />
-        <SayHi />
-        <Footer />
-    </div>
-);
-
-export default AboutPage;
+export default class AboutPage extends React.Component {
+    componentDidMount () {
+        console.log('aboutPage mounted!');
+        window.scrollTo(0, 0);
+    }
+    render() {
+        return (
+            <div>
+                <Header
+                    workUnderline=""
+                    aboutUnderline="--underline"
+                    newsUnderline=""
+                    careersUnderline=""
+                    contactUnderline=""
+                />
+                <MainAbout />
+                <Methods />
+                <HappyClient />
+                <CustomerGrid />
+                <PatchWork />
+                <Offices />
+                <SayHi />
+                <Footer />
+            </div>
+        );
+    }
+}

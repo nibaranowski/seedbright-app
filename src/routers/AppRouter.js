@@ -1,5 +1,8 @@
 import React from 'react';
-import { Router, Route, Switch, Link, NavLink } from 'react-router-dom';
+import { Router, Route, Switch, Link, NavLink, Scroll } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
+import ScrollToTopRoute from './ScrollToTopRoute';
+
 import createHistory from 'history/createBrowserHistory';
 
 import HomePage from '../components/pages/HomePage';
@@ -11,7 +14,8 @@ import ContactPage from '../components/pages/ContactPage';
 import NotFoundPage from '../components/pages/NotFoundPage';
 import PublicRoute from './PublicRoute';
 
-export const history = createHistory();
+const history = createHistory();
+
 
 export default class AppRouter extends React.Component {
     constructor(props){
@@ -19,18 +23,21 @@ export default class AppRouter extends React.Component {
     }
     render(){
         return(
-            <Router history={history}>
-            <div>
-                <Switch>
-                    <Route path="/" component={HomePage} exact={true}/>
-                    <Route path="/work" component={WorkPage} exact={true}/>
-                    <Route path="/about" component={AboutPage} exact={true}/>
-                    <Route path="/news" component={NewsPage} exact={true}/>
-                    <Route path="/careers" component={CareersPage} exact={true}/>
-                    <Route path="/contact" component={ContactPage} exact={true}/>
-                    <Route component={NotFoundPage} />
-                </Switch>
-            </div>
+            <Router history={history} >
+                <div>
+                    <ScrollToTop>
+                    <Switch>
+                        <Route path="/" component={HomePage} exact={true}/>
+                        <Route path="/work" component={WorkPage} exact={true}/>
+                        <Route path="/about" component={AboutPage} exact={true}/>
+                        <Route path="/news" component={NewsPage} exact={true}/>
+                        <Route path="/careers" component={CareersPage} exact={true}/>
+                        <Route path="/contact" component={ContactPage} exact={true}/>
+                        <Route component={NotFoundPage} />
+                    </Switch>
+                    </ScrollToTop>
+                </div>
+
             </Router>
         )
     }

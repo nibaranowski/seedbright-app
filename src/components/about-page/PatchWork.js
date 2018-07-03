@@ -22,7 +22,7 @@ export const PatchWork = () => (
             >
                 <img
                     className="patchWork__content__images__image1"
-                    src="/images/patch1.png"
+                    src="/images/patch1-min.png"
                 />
             </Fade>
             <br />
@@ -33,7 +33,7 @@ export const PatchWork = () => (
             >
                 <img
                     className="patchWork__content__images__image2"
-                    src="/images/patch2.png"
+                    src="/images/patch2-min.png"
                 />
             </Fade>
             <Fade
@@ -43,7 +43,7 @@ export const PatchWork = () => (
             >
                 <img
                     className="patchWork__content__images__image3"
-                    src="/images/patch3.png"
+                    src="/images/patch3-min.png"
                 />
             </Fade>
         </div>

@@ -11,22 +11,22 @@ export const Customers = () => (
             </div> */}
             <div className="customers__content">
                 <div className="customers__content__logo">
-                    <img src="images/main_client1.png" alt="CoHappy" />
+                    <img src="images/main_client1-min.png" alt="CoHappy" />
                 </div>
                 <div className="customers__content__logo">
-                    <img src="images/main_client2.png" alt="BNP Cardif" />
+                    <img src="images/main_client2-min.png" alt="BNP Cardif" />
                 </div>
                 <div className="customers__content__logo">
-                    <img src="images/main_client3.png" alt="Cluball" />
+                    <img src="images/main_client3-min.png" alt="Cluball" />
                 </div>
                 <div className="customers__content__logo">
-                    <img src="images/main_client4.png" alt="Krinner" />
+                    <img src="images/main_client4-min.png" alt="Krinner" />
                 </div>
                 <div className="customers__content__logo">
-                    <img src="images/main_client7.png" alt="Louvain Management School" />
+                    <img src="images/main_client7-min.png" alt="Louvain Management School" />
                 </div>
                 <div className="customers__content__logo">
-                    <img src="images/main_client8.png" alt="Impacteo" />
+                    <img src="images/main_client8-min.png" alt="Impacteo" />
                 </div>
             </div>
         </div>

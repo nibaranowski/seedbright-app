@@ -85,7 +85,7 @@ export const Customers = () => (
                 >
                     <img
                     className="details__content"
-                    src="images/main_option1.jpg" alt="main"
+                    src="images/main_option1-min.jpg" alt="main"
                     />
                 </Fade>
             </div>

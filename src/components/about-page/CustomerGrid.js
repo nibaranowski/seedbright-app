@@ -11,15 +11,15 @@ export const CustomerGrid = () => (
             delay={0}
         >
             <div className="customerGrid__content">
-                <img src="images/big_logo1.png" alt="CoHappy" />
-                <img src="images/big_logo2.png" alt="BNP Cardif" />
-                <img src="images/big_logo3.png" alt="Cluball" />
-                <img src="images/big_logo4.png" alt="Stay Clothes" />
-                <img className="hide" src="images/big_logo5.png" alt="Deskii" />
-                <img src="images/big_logo6.png" alt="Louvain School of Management" />
-                <img src="images/big_logo7.png" alt="Krinner" />
-                <img className="hide" src="images/big_logo8.png" alt="Impacteo" />
-                <img className="hide" src="images/big_logo9.png" alt="Cubz" />
+                <img src="images/big_logo1-min.png" alt="CoHappy" />
+                <img src="images/big_logo2-min.png" alt="BNP Cardif" />
+                <img src="images/big_logo3-min.png" alt="Cluball" />
+                <img src="images/big_logo4-min.png" alt="Stay Clothes" />
+                <img className="hide" src="images/big_logo5-min.png" alt="Deskii" />
+                <img src="images/big_logo6-min.png" alt="Louvain School of Management" />
+                <img src="images/big_logo7-min.png" alt="Krinner" />
+                <img className="hide" src="images/big_logo8-min.png" alt="Impacteo" />
+                <img className="hide" src="images/big_logo9-min.png" alt="Cubz" />
             </div>
         </Fade>
     </div>

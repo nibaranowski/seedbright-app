@@ -6,7 +6,7 @@ export const HappyClient = () => (
     <div className="happyClient">
             <div className="happyClient__content">
                 <div className="happyClient__content__image">
-                    <img src="/images/happy_client.png" />
+                    <img src="/images/happy_client-min.png" />
                 </div>
                 <div className="happyClient__content__text">
                     <h1>Our happy client.</h1>

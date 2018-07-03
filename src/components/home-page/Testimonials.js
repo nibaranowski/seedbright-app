@@ -15,7 +15,7 @@ export const Testimonials = () => (
                     delay={0}
                 >
                     <Testimonial
-                        image="person1.jpg"
+                        image="person1-min.jpg"
                         fullName="Jean-Michel Hermange"
                         jobTitle="COO, BNP Cardif Belgium"
                         quote=" Seedbright brought a multi-industry expertise that helped us challenge our ideas about the future of digital insurance."
@@ -26,7 +26,7 @@ export const Testimonials = () => (
                     delay={100}
                 >
                     <Testimonial
-                        image="person2b.jpg"
+                        image="person2b-min.jpg"
                         fullName="Benoit Gailly"
                         jobTitle="Prof., Louvain Business School"
                         quote=" Working with Seedbright allowed us to design and develop a multi-platform innovation survey tool for a limited budget."
@@ -37,10 +37,10 @@ export const Testimonials = () => (
                     delay={200}
                 >
                     <Testimonial
-                        image="person3.png"
+                        image="person3-min.png"
                         fullName="Michael Krinner"
                         jobTitle="CEO, Krinner Solar"
-                        quote=" Seedbright helped us define technical specifications for the future development of our Cloud infrastructure"
+                        quote=" Seedbright helped us define priorities for the development of new branding projects. I would definitely recommend them."
                     />
                 </Fade>
             </div>

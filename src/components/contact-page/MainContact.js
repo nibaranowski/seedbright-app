@@ -6,7 +6,7 @@ export const MainContact = () => (
     <div className="mainContact">
             <div className="mainContact__content">
                 <div className="mainContact__content__image">
-                    <img src="/images/main_contact.png" />
+                    <img src="/images/main_contact-min.png" />
                 </div>
                 <div className="mainContact__content__text">
                     <h1>Get in touch.</h1>

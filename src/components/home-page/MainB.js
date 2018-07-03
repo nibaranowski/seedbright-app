@@ -30,7 +30,7 @@ const MainB = () => (
                     delay={400}
                 >
                     <div className="mainB__content__image">
-                        <img src="/images/main_option2.jpg" />
+                        <img src="/images/main_option2-min.jpg" />
                     </div>
                 </Fade>
             </div>

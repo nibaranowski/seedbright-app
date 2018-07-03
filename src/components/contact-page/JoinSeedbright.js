@@ -5,7 +5,7 @@ import StyleLink from '../general/StyleLink';
 
 export const JoinSeedbright = () => (
     <div className="joinSeedbright">
-        <img className="joinSeedbright__content__image" src="/images/join_seedbright.png" />
+        <img className="joinSeedbright__content__image" src="/images/join_seedbright-min.png" />
         <div className="joinSeedbright__content">
             <div className="joinSeedbright__content__text">
                 <div className="joinSeedbright__content__text__actualtext">

@@ -14,7 +14,7 @@ export const NewsTile = () => (
                     delay={0}
                 >
                     <TileOneNews
-                        image="news_homepage.png"
+                        image="news_homepage-min.png"
                         date="Jun 18"
                         title="Launching new homepage"
                         subtitle="We are ready to take Seedbright to a whole new level! A new sleek design to present our company!"
@@ -27,7 +27,7 @@ export const NewsTile = () => (
                     delay={200}
                 >
                     <TileOneNews
-                        image="news_krinner.png"
+                        image="news_krinner-min.png"
                         date="May 18"
                         title="Leading the solar revolution"
                         subtitle="We are happy to announce a new engagement with the worldwide leader builder of solar plants."
@@ -39,7 +39,7 @@ export const NewsTile = () => (
                     delay={0}
                 >
                     <TileOneNews
-                        image="news_brussels.png"
+                        image="news_brussels-min.png"
                         date="Sep 17"
                         title="New Brussels office"
                         subtitle="Proud to announce the opening of our new office in Brussels. Closer to our clients!"
@@ -52,7 +52,7 @@ export const NewsTile = () => (
                     delay={200}
                 >
                     <TileOneNews
-                        image="news_impacteo.png"
+                        image="news_impacteo-min.png"
                         date="Sep 17"
                         title="Social impact matters"
                         subtitle="We helped shape the brand identity of Impacteo, a future leading VC fund focusing on social impact startups."
@@ -65,7 +65,7 @@ export const NewsTile = () => (
                     delay={0}
                 >
                     <TileOneNews
-                        image="news_inno.png"
+                        image="news_inno-min.png"
                         date="Aug 17"
                         title="Enterprise innovation"
                         subtitle="Seedbright helped Louvain School of Management launch their entreprise innovation evaluation app."
@@ -78,7 +78,7 @@ export const NewsTile = () => (
                     delay={200}
                 >
                     <TileOneNews
-                        image="news_bhive.png"
+                        image="news_bhive-min.png"
                         date="May 17"
                         title="New partnership"
                         subtitle="Seedbright partners with B-hive, the leading European Fintech network."
@@ -91,7 +91,7 @@ export const NewsTile = () => (
                     delay={0}
                 >
                     <TileOneNews
-                        image="news_cluball.png"
+                        image="news_cluball-min.png"
                         date="Mar 15"
                         title="Cluball is launching"
                         subtitle="Seedbright is proud to present Cluball, a SaaS platform in sports club management built on Web and Mobile."
@@ -104,7 +104,7 @@ export const NewsTile = () => (
                     delay={200}
                 >
                     <TileOneNews
-                        image="news_helloworld.png"
+                        image="news_helloworld-min.png"
                         date="Feb 15"
                         title="Hello world"
                         subtitle="Seedbright has launched. We aim to become a leader in digital product creation and digital strategy."

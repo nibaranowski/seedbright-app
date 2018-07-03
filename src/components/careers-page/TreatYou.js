@@ -8,7 +8,7 @@ export const TreatYou = () => (
         <div className="content-container">
             <div className="treatYou__content">
                 <div className="treatYou__content__illustration">
-                    <img src="/images/main_illustration_treatYou.png" />
+                    <img src="/images/main_illustration_treatYou-min.png" />
                 </div>
                 <div className="treatYou__content__text">
                     <h1>We know how to treat you well</h1>

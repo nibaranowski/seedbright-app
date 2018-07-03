@@ -11,11 +11,11 @@ export const MainCareers = () => (
                     <h2>Working at Seedbright</h2>
                 </div>
                 <div className="mainCareers__content__image">
-                    <img src="/images/main_illustration_careers.png" />
+                    <img src="/images/main_illustration_careers-min.png" />
                 </div>
             </div>
                 <div className="mainCareers__image">
-                    <img src="/images/main_illustration_careers.png" />
+                    <img src="/images/main_illustration_careers-min.png" />
                 </div>
         </div>
     </div>

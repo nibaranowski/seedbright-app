@@ -2,19 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import AppRouter, { history } from './routers/AppRouter';
-import configureStore from './store/configureStore'
+import ScrollToTop from './routers/ScrollToTop';
+import configureStore from './store/configureStore';
 import { login, logout } from './actions/auth';
 import 'react-dates/lib/css/_datepicker.css';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 {/*import { firebase } from './firebase/firebase';*/}
 import LoadingPage from './components/pages/LoadingPage';
-
 const store = configureStore();
 
 const jsx = (
     <Provider store={store}>
-        <AppRouter />
+            <AppRouter />
     </Provider>
 );
 
@@ -36,7 +36,7 @@ const renderApp = () => {
 
 renderApp();
 
-history.push('/');
+history.pushState('/');
 
 
 {/*firebase.auth().onAuthStateChanged((user) => {

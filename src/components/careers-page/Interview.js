@@ -15,7 +15,7 @@ export const Interview = () => (
                         delay={0}
                     >
                         <img
-                            src="/images/main_illustration_interview.png"
+                            src="/images/main_illustration_interview-min.png"
                         />
                     </Fade>
                 </div>
