@@ -27,11 +27,6 @@ export default class ContactPage extends React.Component {
                 <MainContact />
                 <OfficeContact />
                 <JoinSeedbright />
-                {/* <HappyClient />
-                <CustomerGrid />
-                <PatchWork />
-                <Offices />
-                <SayHi /> */}
                 <Footer />
             </div>
         );

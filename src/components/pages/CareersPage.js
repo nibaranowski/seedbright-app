@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 import MainCareers from '../careers-page/MainCareers';
 import Missions from '../careers-page/Missions';
 import Interview from '../careers-page/Interview';
@@ -34,14 +32,6 @@ export default class CareersPage extends React.Component {
                 <PatchWorkCareers />
                 <TreatYou />
                 <OfficeDetail />
-
-            {/*
-                <Methods />
-                <HappyClient />
-                <CustomerGrid />
-                <PatchWork />
-                <Offices />
-                <SayHi />*/}
                 <Footer />
 
             </div>

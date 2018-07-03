@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import { connect } from 'react-redux';
 import StyleActualLink from '../general/StyleActualLink'
 
@@ -20,5 +20,3 @@ export default class TileOneWork extends React.Component {
         );
     }
 }
-
-                    {/* <Link to={"/news/" + this.props.page}> */}

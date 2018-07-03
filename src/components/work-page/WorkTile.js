@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import { connect } from 'react-redux';
 import TileOneWork from './TileOneWork';
 
@@ -11,7 +11,7 @@ export const WorkTile = () => (
             <div className="work-tile__content">
                 <Fade
                     duration={500}
-                    delay={0}
+                    delay={500}
                 >
                     <TileOneWork
                         image="project_krinner-min.png"
@@ -23,7 +23,7 @@ export const WorkTile = () => (
                 </Fade>
                 <Fade
                     duration={500}
-                    delay={200}
+                    delay={700}
                 >
                     <TileOneWork
                         image="project_bnp-min.png"

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+
 import StyleLink from '../general/StyleLink';
 
 import { ReactTypeformEmbed } from 'react-typeform-embed';

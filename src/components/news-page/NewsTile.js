@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import TileOneNews from './TileOneNews';
 
@@ -11,7 +10,7 @@ export const NewsTile = () => (
             <div className="news-tile__content">
                 <Fade
                     duration={500}
-                    delay={0}
+                    delay={500}
                 >
                     <TileOneNews
                         image="news_homepage-min.png"
@@ -24,7 +23,7 @@ export const NewsTile = () => (
                 </Fade>
                 <Fade
                     duration={500}
-                    delay={200}
+                    delay={700}
                 >
                     <TileOneNews
                         image="news_krinner-min.png"
