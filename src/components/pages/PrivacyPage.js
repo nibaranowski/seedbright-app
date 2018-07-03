@@ -1,27 +1,27 @@
 import React from 'react';
-import MainWorkPage from '../work-page/MainWorkPage';
-import WorkTile from '../work-page/WorkTile';
-
 import Header from '../general/Header';
 import Footer from '../general/Footer';
 
-export default class WorkPage extends React.Component {
+import MainPrivacy from '../privacy-page/MainPrivacy';
+import PrivacyText from '../privacy-page/PrivacyText';
+
+export default class PrivacyPage extends React.Component {
     componentDidMount () {
-        //console.log('WorkPage mounted!')
+        //console.log('Privacy mounted!')
         window.scrollTo(0, 0);
     }
     render() {
         return (
             <div>
                 <Header
-                    workUnderline="--underline"
+                    workUnderline=""
                     aboutUnderline=""
-                    newsUnderline=""
+                    newsUnderline="--underline"
                     careersUnderline=""
                     contactUnderline=""
                 />
-                <MainWorkPage />
-                <WorkTile />
+                <MainPrivacy />
+                <PrivacyText />
                 <Footer />
             </div>
         );

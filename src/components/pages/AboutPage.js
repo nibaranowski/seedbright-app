@@ -12,7 +12,7 @@ import Footer from '../general/Footer';
 
 export default class AboutPage extends React.Component {
     componentDidMount () {
-        console.log('aboutPage mounted!');
+        //console.log('aboutPage mounted!');
         window.scrollTo(0, 0);
     }
     render() {

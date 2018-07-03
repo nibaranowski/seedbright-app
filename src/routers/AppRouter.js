@@ -10,6 +10,7 @@ import NewsPage from '../components/pages/NewsPage';
 import CareersPage from '../components/pages/CareersPage';
 import ContactPage from '../components/pages/ContactPage';
 import NotFoundPage from '../components/pages/NotFoundPage';
+import PrivacyPage from '../components/pages/PrivacyPage';
 import PublicRoute from './PublicRoute';
 
 export const history = createHistory();
@@ -24,6 +25,7 @@ const AppRouter = () => (
             <Route path="/news" component={NewsPage} exact={true}/>
             <Route path="/careers" component={CareersPage} exact={true}/>
             <Route path="/contact" component={ContactPage} exact={true}/>
+            <Route path="/privacy" component={PrivacyPage} exact={true}/>
             <Route component={NotFoundPage} />
         </Switch>
     </div>

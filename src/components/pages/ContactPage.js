@@ -11,7 +11,7 @@ import Footer from '../general/Footer';
 
 export default class ContactPage extends React.Component {
     componentDidMount () {
-        console.log('contactPage mounted!')
+        //console.log('contactPage mounted!')
         window.scrollTo(0, 0);
     }
     render() {

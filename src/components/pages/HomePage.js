@@ -9,7 +9,7 @@ import Footer from '../general/Footer';
 
 export default class HomePage extends React.Component {
     componentDidMount () {
-        console.log('homePage mounted!')
+        //console.log('homePage mounted!')
         window.scrollTo(0, 0);
     }
     render() {

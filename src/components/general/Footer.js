@@ -37,12 +37,10 @@ export const Footer = () => (
                         <Link className="footer__sections__column__subtitle" to="/contact">
                             <h3>Contact</h3>
                         </Link>
-                        {/* <Link className="footer__sections__column__subtitle" to="/privacy">
+                        <Link className="footer__sections__column__subtitle" to="/privacy">
                             <h3>Privacy Policy</h3>
                         </Link>
-                        <Link className="footer__sections__column__subtitle" to="/privacy">
-                            <h3>Terms</h3>
-                        </Link> */}
+
                     </div>
                     <div className="footer__sections__column">
                         <div className="footer__sections__column__title">
@@ -54,12 +52,12 @@ export const Footer = () => (
                         <div className="footer__sections__column__subtitle">
                             <h3><a target="_blank" href="https://www.facebook.com/pg/seedbright.apps">Facebook</a></h3>
                         </div>
-                        {/* <div className="footer__sections__column__subtitle">
+                        <div className="footer__sections__column__subtitle">
                             <h3><a target="_blank" href="https://twitter.com/seedbrighttech">Twitter</a></h3>
                         </div>
                         <div className="footer__sections__column__subtitle">
                             <h3><a target="_blank" href="https://www.instagram.com/seedbright">Instagram</a></h3>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>

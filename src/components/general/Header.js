@@ -18,24 +18,6 @@ export default class Header extends React.Component {
                         <div className="header__title-content__menu">
                             <MainMenu />
                         </div>
-
-                        {/* <div className="header__subtitle-content">
-                            <Link className={"header__subtitle" + this.props.workUnderline} to="/work">
-                                <h2>Work</h2>
-                            </Link>
-                            <Link className={"header__subtitle" + this.props.aboutUnderline} to="/about">
-                                <h2>About</h2>
-                            </Link>
-                            <Link className={"header__subtitle" + this.props.newsUnderline} to="/news">
-                                <h2>News</h2>
-                            </Link>
-                            <Link className={"header__subtitle" + this.props.careersUnderline}  to="/careers">
-                                <h2>Careers</h2>
-                            </Link>
-                            <Link className={"header__subtitle" + this.props.contactUnderline} to="/contact">
-                                <h2>Contact</h2>
-                            </Link>
-                        </div> */}
                     </div>
                 </div>
             </header>

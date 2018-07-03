@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class LoadingPage extends React.Component {
     componentDidMount () {
-        console.log('loadingPage mounted!')
+        //console.log('loadingPage mounted!')
         window.scrollTo(0, 0);
     }
     render() {

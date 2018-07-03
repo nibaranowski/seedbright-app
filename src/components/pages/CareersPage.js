@@ -12,7 +12,7 @@ import Footer from '../general/Footer';
 
 export default class CareersPage extends React.Component {
     componentDidMount () {
-        console.log('careersPage mounted!')
+        //console.log('careersPage mounted!')
         window.scrollTo(0, 0);
     }
     render() {
