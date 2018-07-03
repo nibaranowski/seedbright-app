@@ -2,22 +2,32 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import MainMenu from './MainMenu';
+import { stack as Menu } from 'react-burger-menu';
 
-export default class Header extends React.Component {
-    render() {
-        return (
-            <header className="header">
-                <div className="content-container">
-                    <div className="header__content">
-                        <div className="header__title-content">
-                            <Link className="header__title-content__title" to="/">
-                                <h1>Seedbright.</h1>
-                            </Link>
-                        </div>
-                        <div className="header__title-content__menu">
-                            <MainMenu />
-                        </div>
+export default class MainMenu extends React.Component {
+  showSettings (event) {
+    event.preventDefault();
+  }
+
+  render () {
+    return (
+        <Menu
+            right
+            width={'100%'}
+            noOverlay
+            customBurgerIcon={ <img src="images/menu_burger.svg" /> }
+            customCrossIcon={ <img src="images/menu_cross.svg" /> }
+            >
+                <Link id="work" className="menu-item" to="/work">Work</Link>
+                <Link id="about" className="menu-item" to="/about">About</Link>
+                <Link id="news" className="menu-item" to="/news">News</Link>
+                <Link id="careers" className="menu-item" to="/careers">Careers</Link>
+                <Link id="contact" className="menu-item" to="/contact">Contact</Link>
+        </Menu>
+    );
+  }
+}
+
 
                         {/* <div className="header__subtitle-content">
                             <Link className={"header__subtitle" + this.props.workUnderline} to="/work">
@@ -36,9 +46,3 @@ export default class Header extends React.Component {
                                 <h2>Contact</h2>
                             </Link>
                         </div> */}
-                    </div>
-                </div>
-            </header>
-        );
-    }
-}
