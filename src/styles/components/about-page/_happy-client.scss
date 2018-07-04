@@ -109,9 +109,9 @@
             @extend .lp;
             margin-left: 0rem;
             margin-top: 2.0rem;
-            margin-bottom: 2rem;
+            margin-bottom: 0rem;
             width: 40rem;
-            height: 28rem;
+            height: auto;
             @media (max-width: $desktop-breakpoint) { //here in mobile
                 font-size: 1.8rem;
                 width: 30rem;

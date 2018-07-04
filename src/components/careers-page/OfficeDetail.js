@@ -18,7 +18,7 @@ export const OfficeDetail = () => (
                 </div>
                 <div className="officeDetail__content__text">
                     <h1>Brussels</h1>
-                    <h2>If your like good beers and world-class chocolate, you know where to apply. Our office is located in a green area only 10 min. from the city center.</h2>
+                    <h2>If your like good beers and world-class chocolate, you know where to go. Our office is located in a green area only 10 min. from the city center.</h2>
                     <h3>Open positions</h3>
                     <div className="officeDetail__content__text__positions">
                         <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Strategy director</a></h4>

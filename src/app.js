@@ -35,7 +35,7 @@ const renderApp = () => {
 
 renderApp();
 
-history.push('/');
+history.push('/about');
 
 
 {/*firebase.auth().onAuthStateChanged((user) => {

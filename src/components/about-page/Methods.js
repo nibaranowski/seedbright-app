@@ -19,17 +19,17 @@ export const Methods = () => (
                     <Method
                         image="method1-min.png"
                         title="What we do"
-                        text="We are specialists in everyting that touches digital, from product design, brand design, development, testing and growth hacking campaigns."
+                        text="We are specialists in everything that relates to digital, from product design, brand strategy, development, testing and growth hacking campaigns. No challenge can resist us."
                     />
                     <Method
                         image="method2-min.png"
                         title="How we do it"
-                        text="We have a top-down approach: we start by studying what is the product and the value proposition and how it can translate in a strong and bold brand system."
+                        text="We have a top-down approach: we start by studying what our clients customers and value proposition and how it can translate in a strong and bold product and brand system."
                     />
                     <Method
                         image="method3-min.png"
                         title="Why we are unique"
-                        text="We are unique because of our exhaustive approach and the talent that we bring on the table. We have a unique sets of designers, developers and strategists."
+                        text="We are unique because we think about the brand and the product as a system and thanks to our unique pool of diverse talents working together to make things happen."
                     />
                 </div>
             </Fade>

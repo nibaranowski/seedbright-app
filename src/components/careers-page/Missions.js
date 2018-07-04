@@ -21,7 +21,7 @@ export const Missions = () => (
                     </div>
                     <div className="missions__content__mission__one-mission">
                         <h2>Reliable</h2>
-                        <p>When we say it, we do it. We understand our clients is counting on us. Our objective is to beat deadlines and budget. Among team members, we know got each others back on the field.</p>
+                        <p>When we say it, we do it. We understand our clients are counting on us. Our objective is to beat deadlines and budget. Among team members, we know we got each others back on the field.</p>
                     </div>
                     <div className="missions__content__mission__one-mission">
                         <h2>Diverse</h2>

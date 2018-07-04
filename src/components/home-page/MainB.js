@@ -14,7 +14,7 @@ const MainB = () => (
                 >
                     <div className="mainB__content__text">
                         <h1>Digital Products Makers</h1>
-                        <p>At Seedbright, we focus on designing, developing and implementing one-of-a-kind digital products and customer experience.</p>
+                        <p>At Seedbright, we focus on designing, developing and implementing beautiful digital products and unique customer experience.</p>
                         <StyleLink
                             mail="https://seedbright.typeform.com/to/K2u5PL"
                             image="arrow.svg"

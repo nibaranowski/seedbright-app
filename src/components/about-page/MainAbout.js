@@ -12,10 +12,10 @@ export const MainAbout = () => (
                     delay={0}
                 >
                     <div className="mainAbout__content__text">
-                        <h1>We are born digital.</h1>
+                        <h1>Discover Seedbright.</h1>
                         <h2>Learn more about us</h2>
                         <p> Welcome to Seedbright. We are a digital agency specialized in taking big ideas into successful products. We are designers, coders and brand strategists based in Warsaw and Brussels.
-    <br /><br />  If you want to learn more about our methodologies, read on. Also, don’t hesitate to contact us, worst case, you’ll get a free coffee. </p>
+    <br /><br />  If you want to learn more about our methodologies, read on. Don't hesitate to contact us if you need help on get your project started. We look forward to working with you.</p>
                     </div>
                 </Fade>
                 <Fade
