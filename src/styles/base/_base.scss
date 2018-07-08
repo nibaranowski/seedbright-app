@@ -6,6 +6,10 @@ html {
     font-size: 62.5%; // 1 rem = 10px
     max-width: 100%;
     overflow-x: hidden;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 body {
@@ -14,6 +18,10 @@ body {
     font-size: $m-size;
     line-height: 1.6;
     max-width: 100%;
+    @media (max-width: $desktop-breakpoint) { //here in mobile
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 button {

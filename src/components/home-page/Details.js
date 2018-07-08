@@ -33,7 +33,7 @@ export const Customers = () => (
                     </div> */}
                     <div className="details__content__detail__text">
                         <h1>Transparency</h1>
-                        <p>You can monitor on a daily basis the progress made during each phases of the project by using our task management tool.</p>
+                        <p>You can monitor on a daily basis the progress made during each phase of the project by using our task management tool.</p>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ export const Customers = () => (
                     </div> */}
                     <div className="details__content__detail__text">
                         <h1>Passion</h1>
-                        <p>We love coding and developing game-changing new products. Passion is what drives us to give 200% every day.</p>
+                        <p>We love coding and developing game-changing new products. Passion drives us to perform 200% every day.</p>
                     </div>
                 </div>
                 <div className="details__content__detail">

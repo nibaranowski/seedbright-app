@@ -25,9 +25,9 @@ export const OfficeDetail = () => (
                         <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Senior Product designer</a></h4>
                         <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Business developer</a></h4>
                         <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Project Manager</a></h4>
-                        <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Scrum Master</a></h4>
+                        {/* <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Scrum Master</a></h4>
                         <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Office manager</a></h4>
-                        <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Senior accountant</a></h4>
+                        <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Senior accountant</a></h4> */}
                     </div>
                 </div>
                 <div className="officeDetail__content__text--warsaw">
@@ -40,9 +40,9 @@ export const OfficeDetail = () => (
                         <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Senior Android Developer</a></h4>
                         <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">React/Redux developer</a></h4>
                         <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">NodeJs Senior developer</a></h4>
-                        <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Senior iOS developer</a></h4>
+                        {/* <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Senior iOS developer</a></h4>
                         <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">QA engineer</a></h4>
-                        <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Office manager</a></h4>
+                        <h4><a target="_blank" href="https://seedbright.typeform.com/to/cJT3BY">Office manager</a></h4> */}
                     </div>
                 </div>
                 <div className="officeDetail__content__menu">
