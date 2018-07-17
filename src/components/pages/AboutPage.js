@@ -27,7 +27,7 @@ export default class AboutPage extends React.Component {
                 />
                 <MainAbout />
                 <Methods />
-                <HappyClient />
+                {/* <HappyClient /> */}
                 <CustomerGrid />
                 <PatchWork />
                 <Offices />
