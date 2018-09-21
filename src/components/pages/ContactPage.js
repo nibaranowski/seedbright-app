@@ -5,30 +5,35 @@ import MainContact from '../contact-page/MainContact';
 import OfficeContact from '../contact-page/OfficeContact';
 import JoinSeedbright from '../contact-page/JoinSeedbright';
 
+// import CustomerGrid from '../about-page/CustomerGrid';
+// import PatchWork from '../about-page/PatchWork';
+// import Offices from '../about-page/Offices';
+// import SayHi from '../about-page/SayHi';
+
 import Header from '../general/Header';
 import Footer from '../general/Footer';
 
 
-export default class ContactPage extends React.Component {
-    componentDidMount () {
-        //console.log('contactPage mounted!')
-        window.scrollTo(0, 0);
-    }
-    render() {
-        return (
-            <div>
-                <Header
-                    workUnderline=""
-                    aboutUnderline=""
-                    newsUnderline=""
-                    careersUnderline=""
-                    contactUnderline="--underline"
-                />
-                <MainContact />
-                <OfficeContact />
-                <JoinSeedbright />
-                <Footer />
-            </div>
-        );
-    }
-}
+
+const ContactPage = () => (
+    <div>
+        <Header
+            workUnderline=""
+            aboutUnderline=""
+            newsUnderline=""
+            careersUnderline=""
+            contactUnderline="--underline"
+        />
+        <MainContact />
+        <OfficeContact />
+        <JoinSeedbright />
+        {/* <HappyClient />
+        <CustomerGrid />
+        <PatchWork />
+        <Offices />
+        <SayHi /> */}
+        <Footer />
+    </div>
+);
+
+export default ContactPage;

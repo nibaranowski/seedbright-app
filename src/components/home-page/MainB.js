@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import StyleLink from '../general/StyleLink';
 
@@ -14,7 +15,7 @@ const MainB = () => (
                 >
                     <div className="mainB__content__text">
                         <h1>Digital Products Makers</h1>
-                        <p>At Seedbright, we focus on designing, developing and implementing beautiful digital products and unique customer experience.</p>
+                        <p>At Seedbright, we focus on designing, developing and implementing one-of-a-kind digital products and customer experience.</p>
                         <StyleLink
                             mail="https://seedbright.typeform.com/to/K2u5PL"
                             image="arrow.svg"
@@ -25,11 +26,11 @@ const MainB = () => (
                 </Fade>
                 <Fade
                     right
-                    duration={1200}
+                    duration={1000}
                     delay={400}
                 >
                     <div className="mainB__content__image">
-                        <img src="/images/main_option2-min.jpg" />
+                        <img src="/images/main_option2.jpg" />
                     </div>
                 </Fade>
             </div>

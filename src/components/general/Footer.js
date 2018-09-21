@@ -40,7 +40,9 @@ export const Footer = () => (
                         <Link className="footer__sections__column__subtitle" to="/privacy">
                             <h3>Privacy Policy</h3>
                         </Link>
-
+                        <Link className="footer__sections__column__subtitle" to="/privacy">
+                            <h3>Terms</h3>
+                        </Link>
                     </div>
                     <div className="footer__sections__column">
                         <div className="footer__sections__column__title">

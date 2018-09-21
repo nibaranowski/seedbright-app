@@ -18,12 +18,8 @@
     padding-left: $s-size;
     padding-right: $s-size;
     @media (max-width: $desktop-breakpoint) {
-        padding: 0;
-        margin: 0;
-        //border: red 1px solid;
-        width: 100%;
+        width: 90%;
         padding-right: 0;
-        justify-content: space-around;
     }
 
 }
@@ -35,16 +31,11 @@
     img {
         width:10rem;
         @media (max-width: $desktop-breakpoint) {
-            //border: green 1px solid;
             padding-left: 0;
             padding-right: 0rem;
             margin-bottom: 10rem;
             margin-right: 0rem;
-            width: 13rem;
         }
-    }
-    @media (max-width: $desktop-breakpoint) {
-        margin-right: 0rem;
     }
 }
 
