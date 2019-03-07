@@ -16,13 +16,13 @@ export const Offices = () => (
                 delay={0}
             >
                 <div className="offices__content">
-                    <Office
+                    {/* <Office
                         image="brussels-min.png"
                         title="Brussels"
                         street="43 Av. des Grands-Prix"
                         city="Brussels 1150"
                         country="Belgium"
-                    />
+                    /> */}
                     <Office
                         image="warsaw-min.png"
                         title="Warsaw"

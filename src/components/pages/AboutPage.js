@@ -26,7 +26,7 @@ const AboutPage = () => (
         <HappyClient />
         <CustomerGrid />
         <PatchWork />
-        <Offices />
+        {/* <Offices /> */}
         <SayHi />
         <Footer />
     </div>

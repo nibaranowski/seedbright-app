@@ -25,7 +25,7 @@ const ContactPage = () => (
             contactUnderline="--underline"
         />
         <MainContact />
-        <OfficeContact />
+        {/* <OfficeContact /> */}
         <JoinSeedbright />
         {/* <HappyClient />
         <CustomerGrid />
