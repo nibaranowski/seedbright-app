@@ -56,7 +56,6 @@
     "dotenv": "4.0.0",
     "enzyme": "^3.9.0",
     "enzyme-to-json": "3.0.1",
-    "fsevents": "^1.2.7",
     "jest": "^24.1.0",
     "react-test-renderer": "16.0.0",
     "webpack-dev-server": "^3.2.1"
